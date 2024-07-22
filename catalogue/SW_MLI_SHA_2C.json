@@ -1,0 +1,26 @@
+{
+    "product_id": "SW_MLI_SHA_2C",
+    "definition": "Spherical Harmonic Models of the lithospheric field derived in Comprehensive Inversion chain",
+    "applicable_missions": [
+        "Swarm"
+    ],
+    "applicable_spacecraft": [
+        "Swarm-A",
+        "Swarm-B",
+        "Swarm-C"
+    ],
+    "thematic_areas": [
+        "Lithosphere"
+    ],
+    "description": "Spherical Harmonic Models of the lithospheric field derived in Comprehensive Inversion chain",
+    "link_files_http": "https://swarm-diss.eo.esa.int/#swarm/Level2longterm/MLI",
+    "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Level2longterm/MLI",
+    "link_vires_gui": "https://vires.services?ws=data%3Aapplication/json%2Bgzip%3Bbase64%2CH4sIAMta5mMC/51Va0/iQBT9K6RfF5p5dF5%2BQ5TVBF0j7qoY0lQ64mxKS9rCagj/fe%2BMPEpZXSWZQOfMPefcuZ3eWXiFzudmpH/pvDBZ6h01POpj7COv2fBKM9F9nehR%2Bbb04BGEeQthGDcIHbnhI4QGNrqyRugRUzB8pdTAG66kTrJJZDY6rIVJi0IseU%2BH3KCdNaszN/pPNSVvnGSP2tKmeRbPRmXRydInM57l0Spi4fVvwx9Xp9fhRft7O%2Bxdh/jYwXNTmMdEw/NTlBQaJLJZmZhUF1VoGo1M%2BQoIth5RHk10CbVyCsfh5WnHPeVROrZKD5hBqs0Gs38231GWZHkxipyP91uX3hLQ7ldJABZu1zoGqMxn2so4/zDXRbuWRYtbPf5RChtueJHFOtnlA1mw98hLS9%2BStmW0ae2UDPliv2jdQwp2tpcfJl%2Bp1F3NFDlTQj80va8VVTiS%2BCcnNnOdj006DrHjDmpc4vw%2BwzyvMSUQ5Sd4JwfyukYn8frYV2vUbATow/rchae3NVMGb/L/lveHEgcHEZdueTLNUp2WdpcPC8/Y0%2BFd9M7D/lk7JB13bszYtZRv3t6pXS6HbzKA5dFVVphNd5luJ3CYGZIUK19ITjClvNloEY6R4Iz4LGA0IEo2GzTABDEe%2BFhIwknA7QZik28bbQv5lKqAcKQQkxKYQEM%2BE0gIzkEygF8CrwgCRQAQ45IgsIRwKzabrlSQAgkhod1KRKWSxMoIrjijWHChAkEFsxinGEspsBJCKaGoVcnN%2BLl035uvKBMYI8qIZEpxbClE2vRAQlFwUFK4dAjiYKRgBATyl2xoC/fSfjHFTuPuQYMuZ/Fb706yst634SW9WpK7L7qu%2Bbt5L3p0nSedJYnFyDpouJnVQtzRWEdZbFgFieNCjjt%2Blc443HP5lKDFiqjUSWLK1bfVTqbPUeVyOc6jeVaZd56jPDHVG%2Bmy36nMfkKdongNLJd/AXkaI0%2B%2BBwAA",
+    "link_notebook": "",
+    "link_hapi": "",
+    "variables_table": "",
+    "related_resources": "Part of the CI (comprehensive inversion) chain, related to the \"CM\" model series, see e.g.:\n\nSabaka, T.J., T\u00f8ffner-Clausen, L., Olsen, N. et al. CM6: a comprehensive geomagnetic field model derived from both CHAMP and Swarm satellite observations. Earth Planets Space 72, 80 (2020). https://doi.org/10.1186/s40623-020-01210-5",
+    "details": "<table border=\"1\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Product identifier</th>\n\t\t\t<th>MLI_SHA_2C</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Definition</td>\n\t\t\t<td>Spherical harmonic model of the lithospheric field</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Input Data</td>\n\t\t\t<td>MLI_SHAi2C, MLI_VAL_2_</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Input Time Span</td>\n\t\t\t<td>All available quiet time observations from the mission</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Spatial representation</td>\n\t\t\t<td>Spherical Harmonics from degree 16 to 150</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Time representation</td>\n\t\t\t<td>Snapshot</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Units</td>\n\t\t\t<td>nT</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Resolution</td>\n\t\t\t<td>1 pT</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Uncertainty</td>\n\t\t\t<td>Refer to product quality report</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Quality indicator</td>\n\t\t\t<td>Statistics of data misfits provided in validation report</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Data volume</td>\n\t\t\t<td>~0.5 MB</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Data format</td>\n\t\t\t<td>ASCII table (SHC)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Output Data</td>\n\t\t\t<td>Gauss coefficients</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Output time span</td>\n\t\t\t<td>N/A (lithospheric field is considered constant over the analysed time range)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Update rate</td>\n\t\t\t<td>First after 1 year, updated every year</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Latency</td>\n\t\t\t<td>1.5 months</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Notes</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+    "changelog": "",
+    "fast_processing": ""
+}

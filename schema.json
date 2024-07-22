@@ -1,0 +1,142 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/Product",
+    "definitions": {
+        "Product": {
+            "type": "object",
+            "additionalProperties": {},
+            "properties": {
+                "applicable_missions": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "CASSIOPE_e-POP",
+                            "CHAMP",
+                            "Combined_Mission_Data",
+                            "CryoSat-2",
+                            "CSES",
+                            "GOCE",
+                            "GRACE",
+                            "GRACE-FO",
+                            "Miscellaneous",
+                            "Swarm"
+                        ]
+                    }
+                },
+                "applicable_spacecraft": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "CASSIOPE_e-POP (Swarm-E)",
+                            "CHAMP",
+                            "Combined_Mission_Data",
+                            "CryoSat-2",
+                            "CSES-01",
+                            "GOCE",
+                            "GRACE-A",
+                            "GRACE-B",
+                            "GRACE-FO-1",
+                            "GRACE-FO-2",
+                            "Miscellaneous",
+                            "Swarm-A",
+                            "Swarm-B",
+                            "Swarm-C"
+                        ]
+                    }
+                },
+                "changelog": {
+                    "type": "string",
+                    "contentMediaType": "text/html"
+                },
+                "description": {
+                    "type": "string",
+                    "contentMediaType": "text/html"
+                },
+                "details": {
+                    "type": "string",
+                    "contentMediaType": "text/html"
+                },
+                "fast_processing": {
+                    "type": "string",
+                    "contentMediaType": "text/html"
+                },
+                "link_files_ftp": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "ftp"
+                    ]
+                },
+                "link_files_http": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                },
+                "link_hapi": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                },
+                "link_notebook": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                },
+                "link_vires_gui": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                },
+                "definition": {
+                    "type": "string"
+                },
+                "product_id": {
+                    "type": "string"
+                },
+                "related_resources": {
+                    "type": "string",
+                    "contentMediaType": "text/html"
+                },
+                "thematic_areas": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "Acceleration measurements",
+                            "Attitude information",
+                            "Core field",
+                            "Ephemeris",
+                            "Geodesy/Gravity",
+                            "GNSS measurements",
+                            "HK data",
+                            "Ionosphere/Magnetosphere",
+                            "Lithosphere",
+                            "Magnetic measurements",
+                            "Mantle",
+                            "Ocean Tides",
+                            "Orbit information",
+                            "Plasma measurements",
+                            "Space Weather",
+                            "Thermosphere"
+                        ]
+                    }
+                },
+                "variables_table": {
+                    "type": "string"
+                }
+            },
+            "required": [],
+            "title": "Product"
+        }
+    }
+}
