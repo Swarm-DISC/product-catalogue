@@ -59,8 +59,7 @@
                     "contentMediaType": "text/html"
                 },
                 "fast_processing": {
-                    "type": "string",
-                    "contentMediaType": "text/html"
+                    "type": "boolean"
                 },
                 "link_files_ftp": {
                     "type": "string",

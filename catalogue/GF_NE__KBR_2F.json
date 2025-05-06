@@ -22,5 +22,5 @@
     "related_resources": "<ul>\n\t<li><a href=\"https://earth.esa.int/eogateway/activities/tiro\">TIRO Project</a></li>\n</ul>",
     "details": "",
     "changelog": "",
-    "fast_processing": ""
+    "fast_processing": false
 }

@@ -23,5 +23,5 @@
     "related_resources": "<p><strong>Product Descriptions:</strong></p>\n\n<ul>\n\t<li><a href=\"https://earth.esa.int/eogateway/documents/20142/37627/Swarm-TRACIS-Product-Definition.pdf\">Product Release Note</a></li>\n<li><a href=\"https://earth.esa.int/eogateway/news/new-swarm-tracis-product-released\">News: TRACIS products release announcement</a></li>\n\n</ul>\n",
     "details": "",
     "changelog": "",
-    "fast_processing": ""
+    "fast_processing": false
 }

@@ -21,5 +21,5 @@
     "related_resources": "<ul>\n\t<li>Stolle, C., Michaelis, I., Xiong, C. et al., Observing Earth&rsquo;s magnetic environment with the GRACE-FO mission. Earth Planets Space 73, 51 (2021).<br />\n\t<a class=\"reference external\" href=\"https://doi.org/10.1186/s40623-021-01364-w\">https://doi.org/10.1186/s40623-021-01364-w</a></li>\n</ul>\n",
     "details": "",
     "changelog": "",
-    "fast_processing": ""
+    "fast_processing": false
 }

@@ -21,5 +21,5 @@
     "related_resources": "<ul>\n\t<li>Olsen, N., Magnetometer data from the GRACE satellite duo. Earth Planets Space 73, 62 (2021).<br />\n\t<a class=\"reference external\" href=\"https://doi.org/10.1186/s40623-021-01373-9\">https://doi.org/10.1186/s40623-021-01373-9</a></li>\n</ul>\n",
     "details": "",
     "changelog": "",
-    "fast_processing": ""
+    "fast_processing": false
 }

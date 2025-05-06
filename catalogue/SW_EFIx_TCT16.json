@@ -23,5 +23,5 @@
     "related_resources": "<p><strong>Product Descriptions:</strong></p>\n\n<ul>\n\t<li><a href=\"https://earth.esa.int/eogateway/documents/20142/37627/swarm-EFI-TII-cross-track-flow-dataset-release-notes.pdf/153449df-b25c-b98e-0052-1e6d25254ff8?version=1.3&t=1610383268866\">Product Release Note</a></li>\n\n</ul>\n",
     "details": "",
     "changelog": "",
-    "fast_processing": ""
+    "fast_processing": false
 }
