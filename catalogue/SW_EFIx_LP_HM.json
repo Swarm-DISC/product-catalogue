@@ -23,5 +23,17 @@
     "related_resources": "<p><strong>Product Descriptions:</strong></p>\n\n<ul>\n\t<li><a href=\"https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FAdvanced%2FPlasma_Data%2F2_Hz_Langmuir_Probe_Extended_Dataset%2FSW-RN-IRF-GS-005_Extended_LP_Data_Probes.pdf\">Product Release Note</a></li>\n\n</ul>\n",
     "details": "",
     "changelog": "",
-    "fast_processing": ""
+    "fast_processing": "",
+    "creation_year": 2017,
+    "product_types": [
+        "SW_EFIA_LP_HM",
+        "SW_EFIB_LP_HM",
+        "SW_EFIC_LP_HM"
+    ],
+    "authors": [
+        {
+            "name": "Swedish Institute of Space Physics",
+            "ror": "https://ror.org/043kppn11"
+        }
+    ]
 }

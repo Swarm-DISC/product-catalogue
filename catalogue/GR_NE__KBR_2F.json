@@ -22,5 +22,15 @@
     "related_resources": "<ul>\n\t<li><a href=\"https://earth.esa.int/eogateway/activities/tiro\">TIRO Project</a></li>\n</ul>",
     "details": "",
     "changelog": "",
-    "fast_processing": ""
+    "fast_processing": "",
+    "creation_year": 2022,
+    "product_types": [
+        "GR_NE__KBR_2F"
+    ],
+    "authors": [
+        {
+            "name": "GFZ Helmholtz Centre for Geosciences",
+            "ror": "https://ror.org/04z8jg394"
+        }
+    ]
 }

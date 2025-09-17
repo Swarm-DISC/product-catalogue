@@ -50,6 +50,26 @@
                     "type": "string",
                     "contentMediaType": "text/html"
                 },
+                "authors": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "type": "string",
+                                "description": "Name of the authoring organization"
+                            },
+                            "ror": {
+                                "type": "string",
+                                "pattern": "^https://ror\\.org/[0-9a-z]{9}$",
+                                "description": "Research Organization Registry (ROR) identifier"
+                            }
+                        },
+                        "required": ["name"],
+                        "additionalProperties": false
+                    },
+                    "description": "Organizations responsible for authoring this product"
+                },
                 "description": {
                     "type": "string",
                     "contentMediaType": "text/html"
@@ -61,6 +81,10 @@
                 "fast_processing": {
                     "type": "string",
                     "contentMediaType": "text/html"
+                },
+                "creation_year": {
+                    "type": "integer",
+                    "description": "Year when the product was created"
                 },
                 "link_files_ftp": {
                     "type": "string",
@@ -102,6 +126,12 @@
                 },
                 "product_id": {
                     "type": "string"
+                },
+                "product_types" : {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
                 },
                 "related_resources": {
                     "type": "string",

@@ -23,5 +23,17 @@
     "related_resources": "<p><strong>Product Descriptions:</strong></p>\n\n<ul>\n\t<li><a href=\"https://earth.esa.int/eogateway/documents/20142/37627/Swarm-TRACIS-Product-Definition.pdf\">Product Release Note</a></li>\n<li><a href=\"https://earth.esa.int/eogateway/news/new-swarm-tracis-product-released\">News: TRACIS products release announcement</a></li>\n\n</ul>\n",
     "details": "<table border=\"1\" class=\"tg\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>&nbsp;&nbsp;&nbsp;<br />\n\t\t\tFlag value&nbsp;&nbsp;&nbsp;&nbsp;</th>\n\t\t\t<th>&nbsp;&nbsp;&nbsp;<br />\n\t\t\tDescription&nbsp;&nbsp;&nbsp;</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>&nbsp;&nbsp;&nbsp;<br />\n\t\t\t0&nbsp;&nbsp;&nbsp;</td>\n\t\t\t<td>&nbsp;&nbsp;&nbsp;<br />\n\t\t\tNo anomalies detected.&nbsp;&nbsp;&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>&nbsp;&nbsp;&nbsp;<br />\n\t\t\t1&nbsp;&nbsp;&nbsp;</td>\n\t\t\t<td>&nbsp;&nbsp;&nbsp;<br />\n\t\t\tClassic wing anomaly detected.&nbsp;&nbsp;&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>&nbsp;&nbsp;&nbsp;<br />\n\t\t\t2&nbsp;&nbsp;&nbsp;</td>\n\t\t\t<td>&nbsp;&nbsp;&nbsp;<br />\n\t\t\tUpper Angel&rsquo;s wing anomaly detected.&nbsp;&nbsp;&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>&nbsp;&nbsp;&nbsp;<br />\n\t\t\t4&nbsp;&nbsp;&nbsp;</td>\n\t\t\t<td>&nbsp;&nbsp;&nbsp;<br />\n\t\t\tLower Angel&rsquo;s wing anomaly detected.&nbsp;&nbsp;&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>&nbsp;&nbsp;&nbsp;<br />\n\t\t\t8&nbsp;&nbsp;&nbsp;</td>\n\t\t\t<td>&nbsp;&nbsp;&nbsp;<br />\n\t\t\tPeripheral anomaly detected.&nbsp;&nbsp;&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
     "changelog": "",
-    "fast_processing": ""
+    "fast_processing": "",
+    "creation_year": 2022,
+    "product_types": [
+        "SW_EFIATISL1B",
+        "SW_EFIBTISL1B",
+        "SW_EFICTISL1B"
+    ],
+    "authors": [
+        {
+            "name": "University of Calgary",
+            "ror": "https://ror.org/03yjb2x39"
+        }
+    ]
 }

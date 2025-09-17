@@ -23,5 +23,17 @@
     "related_resources": "<p><strong>Product Descriptions:</strong></p>\n\n<ul>\n\t<li><a href=\"https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FAdvanced%2FPlasma_Data%2FProvisional_Plasma_dataset%2FThermal_Ion_Imagers_Data%2FSW-RN-UoC-GS-002_Preliminary_TII_Data_ReleaseNotes.pdf\">Product Release Note</a></li>\n\n</ul>",
     "details": "",
     "changelog": "",
-    "fast_processing": ""
+    "fast_processing": "",
+    "creation_year": 2014,
+    "product_types": [
+        "SW_EFIA_TII1B",
+        "SW_EFIB_TII1B",
+        "SW_EFIC_TII1B"
+    ],
+    "authors": [
+        {
+            "name": "University of Calgary",
+            "ror": "https://ror.org/03yjb2x39"
+        }
+    ]
 }

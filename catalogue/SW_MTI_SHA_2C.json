@@ -22,5 +22,15 @@
     "related_resources": "Part of the CI (comprehensive inversion) chain, related to the \"CM\" model series, see e.g.:\n\nSabaka, T.J., T\u00f8ffner-Clausen, L., Olsen, N. et al. CM6: a comprehensive geomagnetic field model derived from both CHAMP and Swarm satellite observations. Earth Planets Space 72, 80 (2020). https://doi.org/10.1186/s40623-020-01210-5",
     "details": "",
     "changelog": "",
-    "fast_processing": ""
+    "fast_processing": "",
+    "creation_year": 2018,
+    "product_types": [
+        "SW_MTI_SHA_2C"
+    ],
+    "authors": [
+        {
+            "name": "Technical University of Denmark",
+            "ror": "https://ror.org/04qtj9h94"
+        }
+    ]
 }
