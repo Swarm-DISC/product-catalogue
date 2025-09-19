@@ -23,7 +23,7 @@
     "related_resources": "<ul>\n\t<li><a href=\"https://earth.esa.int/eogateway/activities/toleos\">TOLEOS Project</a></li>\n\t<li><a href=\"http://thermosphere.tudelft.nl/\">TU Delft thermosphere data</a></li>\n</ul>",
     "details": "",
     "changelog": "",
-    "fast_processing": "",
+    "fast_processing": false,
     "creation_year": 2023,
     "product_types": [
         "GR_OPER_WND1ACC_2_",

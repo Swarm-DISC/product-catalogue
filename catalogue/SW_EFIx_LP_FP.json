@@ -23,7 +23,7 @@
     "related_resources": "<p><strong>Product Descriptions:</strong></p>\n\n<ul>\n\t<li><a href=\"https://earth.esa.int/eogateway/documents/20142/37627/SW-RN-IRF-GS-005_Extended_LP_Data_Probes.pdf/dfacf8ec-4c15-3870-35f1-83325ebd6bc9?version=1.0&t=1610383294788\">Product Release Note</a></li>\n\n</ul>\n\n\n",
     "details": "",
     "changelog": "",
-    "fast_processing": "",
+    "fast_processing": false,
     "creation_year": 2017,
     "product_types": [
         "SW_EXTD_EFIA_LP_FP",

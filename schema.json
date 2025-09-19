@@ -79,8 +79,7 @@
                     "contentMediaType": "text/html"
                 },
                 "fast_processing": {
-                    "type": "string",
-                    "contentMediaType": "text/html"
+                    "type": "boolean"
                 },
                 "creation_year": {
                     "type": "integer",

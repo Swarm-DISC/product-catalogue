@@ -20,7 +20,7 @@
     "related_resources": "<ul>\n\t<li>Olsen, N., Albini, G., Bouffard, J. et al., Magnetic observations from CryoSat-2: calibration and processing of satellite platform magnetometer data. Earth Planets Space 72, 48 (2020). <a class=\"reference external\" href=\"https://doi.org/10.1186/s40623-020-01171-9\">https://doi.org/10.1186/s40623-020-01171-9</a></li>\n</ul>\n",
     "details": "",
     "changelog": "",
-    "fast_processing": "",
+    "fast_processing": false,
     "creation_year": 2020,
     "product_types": [
         "CS_OPER_MAG"

@@ -22,7 +22,7 @@
     "related_resources": "<ul>\n<li><a href=\"https://earth.esa.int/eogateway/activities/gvo\">Geomagnetic Virtual Observatories activity</a></li>\n</ul>\n",
     "details": "",
     "changelog": "",
-    "fast_processing": "",
+    "fast_processing": false,
     "creation_year": 2021,
     "product_types": [
         "SW_OPER_VOBS_4M_2_"

@@ -20,7 +20,7 @@
     "related_resources": "<ul>\n\t<li>Michaelis, Ingo; Korte, Monika (2022), GOCE calibrated and characterised magnetometer data. V. 0205. GFZ Data Services. <a class=\"reference external\" href=\"https://doi.org/10.5880/GFZ.2.3.2022.001\">https://doi.org/10.5880/GFZ.2.3.2022.001</a></li>\n</ul>\n",
     "details": "",
     "changelog": "",
-    "fast_processing": "",
+    "fast_processing": false,
     "creation_year": 2022,
     "product_types": [
         "GO_MAG_ACAL_CORR"

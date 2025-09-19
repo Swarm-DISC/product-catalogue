@@ -22,7 +22,7 @@
     "related_resources": "<p><strong>Product Descriptions:</strong></p>\n\n<ul>\n\n<li><a href=\"https://earth.esa.int/eogateway/documents/20142/2860886/SLIDEM_Product_Definition.pdf\">SLIDEM Product Definition</a>\n\n</ul>\n\n<p><strong>Related Project:</strong></p>\n\n<ul>\n\n<li><a href=\"https://earth.esa.int/eogateway/activities/slidem\">Activity: Swarm LP Ion Drift and Effective Mass (SLIDEM)</a></li>\n\n</ul>",
     "details": "",
     "changelog": "",
-    "fast_processing": "",
+    "fast_processing": false,
     "creation_year": 2022,
     "product_types": [
         "SW_PREL_EFIAIDM_2_",
