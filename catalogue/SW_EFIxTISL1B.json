@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2022,
     "product_types": [
-        "SW_EFIATISL1B",
-        "SW_EFIBTISL1B",
-        "SW_EFICTISL1B"
+        "SW_OPER_EFIATISL1B",
+        "SW_OPER_EFIBTISL1B",
+        "SW_OPER_EFICTISL1B"
     ],
     "authors": [
         {

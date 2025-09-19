@@ -24,8 +24,8 @@
     "fast_processing": "",
     "creation_year": 2022,
     "product_types": [
-        "GF1_FGM_ACAL_CORR",
-        "GF2_FGM_ACAL_CORR"
+        "GF1_OPER_FGM_ACAL_CORR",
+        "GF2_OPER_FGM_ACAL_CORR"
     ],
     "authors": [
         {

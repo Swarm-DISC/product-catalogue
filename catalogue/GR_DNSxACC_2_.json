@@ -26,8 +26,8 @@
     "fast_processing": "",
     "creation_year": 2022,
     "product_types": [
-        "GR_DNS1ACC_2_",
-        "GR_DNS2ACC_2_"
+        "GR_OPER_DNS1ACC_2_",
+        "GR_OPER_DNS2ACC_2_"
     ],
     "authors": [
         {

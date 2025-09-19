@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2025,
     "product_types": [
-        "SW_PC1AMAG_2F",
-        "SW_PC1BMAG_2F",
-        "SW_PC1CMAG_2F"
+        "SW_OPER_PC1AMAG_2F",
+        "SW_OPER_PC1BMAG_2F",
+        "SW_OPER_PC1CMAG_2F"
     ],
     "authors": [
         {

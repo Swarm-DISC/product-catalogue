@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2019,
     "product_types": [
-        "SW_IPDAIRR_2F",
-        "SW_IPDBIRR_2F",
-        "SW_IPDCIRR_2F"
+        "SW_OPER_IPDAIRR_2F",
+        "SW_OPER_IPDBIRR_2F",
+        "SW_OPER_IPDCIRR_2F"
     ],
     "authors": [
         {

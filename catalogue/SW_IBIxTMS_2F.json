@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2015,
     "product_types": [
-        "SW_IBIATMS_2F",
-        "SW_IBIBTMS_2F",
-        "SW_IBICTMS_2F"
+        "SW_OPER_IBIATMS_2F",
+        "SW_OPER_IBIBTMS_2F",
+        "SW_OPER_IBICTMS_2F"
     ],
     "authors": [
         {

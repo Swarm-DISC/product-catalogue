@@ -25,9 +25,9 @@
     "fast_processing": "",
     "creation_year": 2013,
     "product_types": [
-        "SW_MODA_SC_1B",
-        "SW_MODB_SC_1B",
-        "SW_MODC_SC_1B"
+        "SW_OPER_MODA_SC_1B",
+        "SW_OPER_MODB_SC_1B",
+        "SW_OPER_MODC_SC_1B"
     ],
     "authors": [
         {

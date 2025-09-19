@@ -25,9 +25,9 @@
     "fast_processing": "",
     "creation_year": 2021,
     "product_types": [
-        "SW_MITATEC_2F",
-        "SW_MITBTEC_2F",
-        "SW_MITCTEC_2F"
+        "SW_OPER_MITATEC_2F",
+        "SW_OPER_MITBTEC_2F",
+        "SW_OPER_MITCTEC_2F"
     ],
     "authors": [
         {

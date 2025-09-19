@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2017,
     "product_types": [
-        "SW_ACCAPOD_2_",
-        "SW_ACCBPOD_2_",
-        "SW_ACCCPOD_2_"
+        "SW_OPER_ACCAPOD_2_",
+        "SW_OPER_ACCBPOD_2_",
+        "SW_OPER_ACCCPOD_2_"
     ],
     "authors": [
         {

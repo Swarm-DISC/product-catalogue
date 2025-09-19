@@ -25,9 +25,9 @@
     "fast_processing": "",
     "creation_year": 2021,
     "product_types": [
-        "SW_ACCACAL_2_",
-        "SW_ACCBCAL_2_",
-        "SW_ACCCCAL_2_"
+        "SW_OPER_ACCACAL_2_",
+        "SW_OPER_ACCBCAL_2_",
+        "SW_OPER_ACCCCAL_2_"
     ],
     "authors": [
         {

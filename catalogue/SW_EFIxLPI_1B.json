@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2013,
     "product_types": [
-        "SW_EFIALPI_1B",
-        "SW_EFIBLPI_1B",
-        "SW_EFICLPI_1B"
+        "SW_OPER_EFIALPI_1B",
+        "SW_OPER_EFIBLPI_1B",
+        "SW_OPER_EFICLPI_1B"
     ],
     "authors": [
         {

@@ -25,9 +25,9 @@
     "fast_processing": "",
     "creation_year": 2013,
     "product_types": [
-        "SW_VFMAAUX_1B",
-        "SW_VFMBAUX_1B",
-        "SW_VFMCAUX_1B"
+        "SW_OPER_VFMAAUX_1B",
+        "SW_OPER_VFMBAUX_1B",
+        "SW_OPER_VFMCAUX_1B"
     ],
     "authors": [
         {

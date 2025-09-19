@@ -25,9 +25,9 @@
     "fast_processing": "",
     "creation_year": 2015,
     "product_types": [
-        "SW_SP3ACOM_2_",
-        "SW_SP3BCOM_2_",
-        "SW_SP3CCOM_2_"
+        "SW_OPER_SP3ACOM_2_",
+        "SW_OPER_SP3BCOM_2_",
+        "SW_OPER_SP3CCOM_2_"
     ],
     "authors": [
         {

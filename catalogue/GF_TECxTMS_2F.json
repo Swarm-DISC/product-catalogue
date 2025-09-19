@@ -25,8 +25,8 @@
     "fast_processing": "",
     "creation_year": 2022,
     "product_types": [
-        "GF_TEC1TMS_2F",
-        "GF_TEC2TMS_2F"
+        "GF_OPER_TEC1TMS_2F",
+        "GF_OPER_TEC2TMS_2F"
     ],
     "authors": [
         {

@@ -24,9 +24,9 @@
     "fast_processing": "",
     "creation_year": 2018,
     "product_types": [
-        "SW_DNSAACC_2_",
-        "SW_DNSBACC_2_",
-        "SW_DNSCACC_2_"
+        "SW_OPER_DNSAACC_2_",
+        "SW_OPER_DNSBACC_2_",
+        "SW_OPER_DNSCACC_2_"
     ],
     "authors": [
         {

@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2014,
     "product_types": [
-        "SW_FACATMS_2F",
-        "SW_FACBTMS_2F",
-        "SW_FACCTMS_2F"
+        "SW_OPER_FACATMS_2F",
+        "SW_OPER_FACBTMS_2F",
+        "SW_OPER_FACCTMS_2F"
     ],
     "authors": [
         {

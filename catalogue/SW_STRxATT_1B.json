@@ -25,9 +25,9 @@
     "fast_processing": "",
     "creation_year": 2013,
     "product_types": [
-        "SW_STRAATT_1B",
-        "SW_STRBATT_1B",
-        "SW_STRCATT_1B"
+        "SW_OPER_STRAATT_1B",
+        "SW_OPER_STRBATT_1B",
+        "SW_OPER_STRCATT_1B"
     ],
     "authors": [
         {

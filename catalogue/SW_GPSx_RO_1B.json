@@ -25,9 +25,9 @@
     "fast_processing": "",
     "creation_year": 2013,
     "product_types": [
-        "SW_GPSA_RO_1B",
-        "SW_GPSB_RO_1B",
-        "SW_GPSC_RO_1B"
+        "SW_OPER_GPSA_RO_1B",
+        "SW_OPER_GPSB_RO_1B",
+        "SW_OPER_GPSC_RO_1B"
     ],
     "authors": [
         {

@@ -25,9 +25,9 @@
     "fast_processing": "",
     "creation_year": 2021,
     "product_types": [
-        "SW_PPIAFAC_2F",
-        "SW_PPIBFAC_2F",
-        "SW_PPICFAC_2F"
+        "SW_OPER_PPIAFAC_2F",
+        "SW_OPER_PPIBFAC_2F",
+        "SW_OPER_PPICFAC_2F"
     ],
     "authors": [
         {

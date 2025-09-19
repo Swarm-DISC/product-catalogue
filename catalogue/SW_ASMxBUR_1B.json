@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2020,
     "product_types": [
-        "SW_ASMABUR_1B",
-        "SW_ASMBBUR_1B",
-        "SW_ASMCBUR_1B"
+        "SW_OPER_ASMABUR_1B",
+        "SW_OPER_ASMBBUR_1B",
+        "SW_OPER_ASMCBUR_1B"
     ],
     "authors": [
         {

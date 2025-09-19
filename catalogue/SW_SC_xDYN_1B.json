@@ -25,9 +25,9 @@
     "fast_processing": "",
     "creation_year": 2013,
     "product_types": [
-        "SW_SC_ADYN_1B",
-        "SW_SC_BDYN_1B",
-        "SW_SC_BDYN_1B"
+        "SW_OPER_SC_ADYN_1B",
+        "SW_OPER_SC_BDYN_1B",
+        "SW_OPER_SC_BDYN_1B"
     ],
     "authors": [
         {

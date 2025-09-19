@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2020,
     "product_types": [
-        "SW_EEFATMS_2F",
-        "SW_EEFBTMS_2F",
-        "SW_EEFCTMS_2F"
+        "SW_OPER_EEFATMS_2F",
+        "SW_OPER_EEFBTMS_2F",
+        "SW_OPER_EEFCTMS_2F"
     ],
     "authors": [
         {

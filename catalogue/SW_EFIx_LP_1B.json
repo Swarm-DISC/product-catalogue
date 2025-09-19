@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2013,
     "product_types": [
-        "SW_EFIA_LP_1B",
-        "SW_EFIB_LP_1B",
-        "SW_EFIC_LP_1B"
+        "SW_OPER_EFIA_LP_1B",
+        "SW_OPER_EFIB_LP_1B",
+        "SW_OPER_EFIC_LP_1B"
     ],
     "authors": [
         {

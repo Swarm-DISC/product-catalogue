@@ -25,9 +25,9 @@
     "fast_processing": "",
     "creation_year": 2022,
     "product_types": [
-        "SW_EFIAIDM_2_",
-        "SW_EFIBIDM_2_",
-        "SW_EFICIDM_2_"
+        "SW_PREL_EFIAIDM_2_",
+        "SW_PREL_EFIBIDM_2_",
+        "SW_PREL_EFICIDM_2_"
     ],
     "authors": [
         {

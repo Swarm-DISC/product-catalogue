@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2017,
     "product_types": [
-        "SW_EFIA_TCT16",
-        "SW_EFIB_TCT16",
-        "SW_EFIC_TCT16"
+        "SW_EXPT_EFIA_TCT16",
+        "SW_EXPT_EFIB_TCT16",
+        "SW_EXPT_EFIC_TCT16"
     ],
     "authors": [
         {

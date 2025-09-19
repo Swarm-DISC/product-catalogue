@@ -25,9 +25,9 @@
     "fast_processing": "",
     "creation_year": 2017,
     "product_types": [
-        "SW_DNSAPOD_2",
-        "SW_DNSBPOD_2_",
-        "SW_DNSCPOD_2_"
+        "SW_OPER_DNSAPOD_2",
+        "SW_OPER_DNSBPOD_2_",
+        "SW_OPER_DNSCPOD_2_"
     ],
     "authors": [
         {

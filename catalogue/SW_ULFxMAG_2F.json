@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2025,
     "product_types": [
-        "SW_ULFAMAG_2F",
-        "SW_ULFBMAG_2F",
-        "SW_ULFCMAG_2F"
+        "SW_OPER_ULFAMAG_2F",
+        "SW_OPER_ULFBMAG_2F",
+        "SW_OPER_ULFCMAG_2F"
     ],
     "authors": [
         {

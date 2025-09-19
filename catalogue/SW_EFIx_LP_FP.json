@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2017,
     "product_types": [
-        "SW_EFIA_LP_FP",
-        "SW_EFIB_LP_FP",
-        "SW_EFIC_LP_FP"
+        "SW_EXTD_EFIA_LP_FP",
+        "SW_EXTD_EFIB_LP_FP",
+        "SW_EXTD_EFIC_LP_FP"
     ],
     "authors": [
         {

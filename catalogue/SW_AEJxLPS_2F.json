@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2020,
     "product_types": [
-        "SW_AEJALPS_2F",
-        "SW_AEJBLPS_2F",
-        "SW_AEJCLPS_2F"
+        "SW_OPER_AEJALPS_2F",
+        "SW_OPER_AEJBLPS_2F",
+        "SW_OPER_AEJCLPS_2F"
     ],
     "authors": [
         {

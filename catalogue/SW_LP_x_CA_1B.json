@@ -25,9 +25,9 @@
     "fast_processing": "",
     "creation_year": 2013,
     "product_types": [
-        "SW_LP_A_CA_1B",
-        "SW_LP_B_CA_1B",
-        "SW_LP_C_CA_1B"
+        "SW_OPER_LP_A_CA_1B",
+        "SW_OPER_LP_B_CA_1B",
+        "SW_OPER_LP_C_CA_1B"
     ],
     "authors": [
         {

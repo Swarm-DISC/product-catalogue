@@ -25,9 +25,9 @@
     "fast_processing": "",
     "creation_year": 2015,
     "product_types": [
-        "SW_SP3AKIN_2_",
-        "SW_SP3BKIN_2_",
-        "SW_SP3CKIN_2_"
+        "SW_OPER_SP3AKIN_2_",
+        "SW_OPER_SP3BKIN_2_",
+        "SW_OPER_SP3CKIN_2_"
     ],
     "authors": [
         {

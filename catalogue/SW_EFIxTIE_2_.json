@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2021,
     "product_types": [
-        "SW_EFIATIE_2_",
-        "SW_EFIBTIE_2_",
-        "SW_EFICTIE_2_"
+        "SW_OPER_EFIATIE_2_",
+        "SW_OPER_EFIBTIE_2_",
+        "SW_OPER_EFICTIE_2_"
     ],
     "authors": [
         {

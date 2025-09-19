@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2014,
     "product_types": [
-        "SW_EFIA_TII1B",
-        "SW_EFIB_TII1B",
-        "SW_EFIC_TII1B"
+        "SW_PREL_EFIA_TII1B",
+        "SW_PREL_EFIB_TII1B",
+        "SW_PREL_EFIC_TII1B"
     ],
     "authors": [
         {

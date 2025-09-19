@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2020,
     "product_types": [
-        "SW_AOBAFAC_2F",
-        "SW_AOBBFAC_2F",
-        "SW_AOBCFAC_2F"
+        "SW_OPER_AOBAFAC_2F",
+        "SW_OPER_AOBBFAC_2F",
+        "SW_OPER_AOBCFAC_2F"
     ],
     "authors": [
         {

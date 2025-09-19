@@ -26,9 +26,9 @@
     "fast_processing": "",
     "creation_year": 2013,
     "product_types": [
-        "SW_MAGA_LR_1B",
-        "SW_MAGB_LR_1B",
-        "SW_MAGC_LR_1B"
+        "SW_OPER_MAGA_LR_1B",
+        "SW_OPER_MAGB_LR_1B",
+        "SW_OPER_MAGC_LR_1B"
     ],
     "authors": [
         {

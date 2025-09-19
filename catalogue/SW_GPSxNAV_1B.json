@@ -25,9 +25,9 @@
     "fast_processing": "",
     "creation_year": 2013,
     "product_types": [
-        "SW_GPSANAV_1B",
-        "SW_GPSBNAV_1B",
-        "SW_GPSCNAV_1B"
+        "SW_OPER_GPSANAV_1B",
+        "SW_OPER_GPSBNAV_1B",
+        "SW_OPER_GPSCNAV_1B"
     ],
     "authors": [
         {

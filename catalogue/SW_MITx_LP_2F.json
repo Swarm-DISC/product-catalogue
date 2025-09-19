@@ -25,9 +25,9 @@
     "fast_processing": "",
     "creation_year": 2021,
     "product_types": [
-        "SW_MITA_LP_2F",
-        "SW_MITB_LP_2F",
-        "SW_MITC_LP_2F"
+        "SW_OPER_MITA_LP_2F",
+        "SW_OPER_MITB_LP_2F",
+        "SW_OPER_MITC_LP_2F"
     ],
     "authors": [
         {
