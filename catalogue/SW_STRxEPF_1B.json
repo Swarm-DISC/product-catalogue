@@ -1,6 +1,6 @@
 {
     "product_id": "SW_STRxEPF_1B",
-    "definition": "Star tracker energetic particle product",
+    "definition": "Star tracker energetic particle flux",
     "applicable_missions": [
         "Swarm"
     ],
@@ -23,9 +23,9 @@
         "SW_OPER_STRBEPF_1B",
         "SW_OPER_STRCEPF_1B"
     ],
-    "description": "",
-    "link_files_http": "",
-    "link_files_ftp": "",
+    "description": "Proton flux of energetic particles (>100 MeV) measured by each CHU (Camera Head Unit)",
+    "link_files_http": "https://swarm-diss.eo.esa.int/#swarm/Level1b/Latest_baselines/STRxEPF",
+    "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Level1b/Latest_baselines/STRxEPF",
     "link_vires_gui": "",
     "link_notebook": "",
     "link_hapi": "",
