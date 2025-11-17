@@ -1,0 +1,37 @@
+{
+    "product_id": "SW_STRxEPF_1B",
+    "definition": "Star tracker energetic particle product",
+    "applicable_missions": [
+        "Swarm"
+    ],
+    "applicable_spacecraft": [
+        "Swarm-A",
+        "Swarm-B",
+        "Swarm-C"
+    ],
+    "thematic_areas": [
+        "Space Weather"
+    ],
+    "authors": [
+        {
+            "name": "Swarm PDGS"
+        }
+    ],
+    "creation_year": 2025,
+    "product_types": [
+        "SW_OPER_STRAEPF_1B",
+        "SW_OPER_STRBEPF_1B",
+        "SW_OPER_STRCEPF_1B"
+    ],
+    "description": "",
+    "link_files_http": "",
+    "link_files_ftp": "",
+    "link_vires_gui": "",
+    "link_notebook": "",
+    "link_hapi": "",
+    "variables_table": "Variable,Units,Description,Dim,Type\nTimestamp,UTC,Time of observation,1,CDF_EPOCH\nSyncStatus,-,\"Time synchronization status (of VFM), source and quality\",1,CDF_UINT16\nLatitude ,deg,Position in ITRF \u2013 Geocentric latitude ,1,CDF_DOUBLE\nLongitude ,deg,Position in ITRF \u2013 Geocentric longitude ,1,CDF_DOUBLE\nRadius,m,Position in ITRF \u2013 Radius,1,CDF_DOUBLE\nEPF,cm-2s-1,\"Energetic particle flux, NaN if Flags_EPF >= 16\",3,CDF_DOUBLE\nEPD,-,Energetic particle detections,3,CDF_UINT2\nT_CHU,\u2103,CHU temperature,3,CDF_DOUBLE\nRA,deg,Rect-ascension of CHU attitude,3,CDF_DOUBLE\nDEC,deg,Declination of CHU attitude,3,CDF_DOUBLE\nEPD_T_corr,-,Temperature correction of particle count,3,CDF_DOUBLE\nEPD_Dens_corr,-,Star density correction of particle count,3,CDF_DOUBLE\nFlags_EPF,-,Flags characterizing the energetic particle flux estimate (EPF),3,CDF_UINT1",
+    "related_resources": "<ul>\n\t<li>Toldbo, C., Sushkova, J., Herceg, M. et al. Mapping High Energy Particles Using Augmented Star Trackers On-Board Swarm. Space Sci Rev 218, 58 (2022). https://doi.org/10.1007/s11214-022-00925-z</li>\n</ul>\n",
+    "details": "<table><thead>\n  <tr>\n    <th>Flag</th>\n    <th>Value</th>\n    <th>Description</th>\n    <th>Dim</th>\n    <th>Type</th>\n  </tr></thead>\n<tbody>\n  <tr>\n    <td rowspan=\"10\">Flags_EPF</td>\n    <td>0</td>\n    <td>Energetic particle flux estimate nominal</td>\n    <td>1</td>\n    <td>CDF_EPOCH</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>Star density above limit in field of view</td>\n    <td>1</td>\n    <td>CDF_UINT16</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>CHU temperature above limit</td>\n    <td>1</td>\n    <td>CDF_DOUBLE</td>\n  </tr>\n  <tr>\n    <td>4</td>\n    <td>Gain control not stabilized</td>\n    <td>1</td>\n    <td>CDF_DOUBLE</td>\n  </tr>\n  <tr>\n    <td>8</td>\n    <td>Raw particle count above limit</td>\n    <td>1</td>\n    <td>CDF_DOUBLE</td>\n  </tr>\n  <tr>\n    <td>16</td>\n    <td>Big bright object (BBO) detected</td>\n    <td>3</td>\n    <td>CDF_DOUBLE</td>\n  </tr>\n  <tr>\n    <td>32</td>\n    <td>CHU in high-rate mode (image smir)</td>\n    <td>3</td>\n    <td>CDF_UINT2</td>\n  </tr>\n  <tr>\n    <td>64</td>\n    <td>Non-valid attitude sample</td>\n    <td>3</td>\n    <td>CDF_DOUBLE</td>\n  </tr>\n  <tr>\n    <td>128</td>\n    <td>On-board processing not completed</td>\n    <td>3</td>\n    <td>CDF_DOUBLE</td>\n  </tr>\n  <tr>\n    <td>&gt;128</td>\n    <td>Any combination of the above</td>\n    <td>3</td>\n    <td>CDF_DOUBLE</td>\n  </tr>\n</tbody></table>",
+    "changelog": "",
+    "fast_processing": false
+}
