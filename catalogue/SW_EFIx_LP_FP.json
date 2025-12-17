@@ -20,7 +20,7 @@
     "link_notebook": "",
     "link_hapi": "",
     "variables_table": "Variable,Units,Description,Dim,Type\nTimestamp,\" ms\",Time stamp in milliseconds  since 01-Jan-0000 00:00:00.000 UTC,1,CDF_EPOCH\nLatitude,deg,\"Geodetic latitude, WGS84 ellipsoid\",1,CDF_DOUBLE\nLongitude,deg,\"Geodetic longitude, WGS84 ellipsoid\",1,CDF_DOUBLE\nHeight,km,\"Height above reference ellipsoid, WGS84\",1,CDF_DOUBLE\nCurrent,nA,Calibrated measured Faceplate current,1,CDF_DOUBLE\nDensity,cm-3,Plasma density from the faceplate current,1,CDF_DOUBLE\n",
-    "related_resources": "<p><strong>Product Descriptions:</strong></p>\n\n<ul>\n\t<li><a href=\"https://earth.esa.int/eogateway/documents/20142/37627/SW-RN-IRF-GS-005_Extended_LP_Data_Probes.pdf/dfacf8ec-4c15-3870-35f1-83325ebd6bc9?version=1.0&t=1610383294788\">Product Release Note</a></li>\n\n</ul>\n\n\n",
+    "related_resources": "<p><strong>Product Descriptions:</strong></p>\n\n<ul>\n\t<li><a href=\"https://earth.esa.int/eogateway/documents/20142/37627/SW-RN-IRF-GS-005_Extended_LP_Data_Probes.pdf/dfacf8ec-4c15-3870-35f1-83325ebd6bc9\">Product Release Note</a></li>\n\n</ul>\n\n\n",
     "details": "",
     "changelog": "",
     "fast_processing": false,
