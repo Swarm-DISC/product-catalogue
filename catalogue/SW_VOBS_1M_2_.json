@@ -32,5 +32,11 @@
             "name": "British Geological Survey",
             "ror": "https://ror.org/04a7gbp98"
         }
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_VOBS_1M_2_",
+            "identifierType": "URL"
+        }
     ]
 }

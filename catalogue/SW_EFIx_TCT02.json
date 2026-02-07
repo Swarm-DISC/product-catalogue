@@ -35,5 +35,11 @@
             "name": "University of Calgary",
             "ror": "https://ror.org/03yjb2x39"
         }
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_TCT02",
+            "identifierType": "URL"
+        }
     ]
 }

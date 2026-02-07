@@ -32,5 +32,11 @@
             "name": "University of Bergen",
             "ror": "https://ror.org/03zga2b32"
         }
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_MIO_SHA_2E",
+            "identifierType": "URL"
+        }
     ]
 }

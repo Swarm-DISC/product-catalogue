@@ -32,5 +32,11 @@
             "name": "Delft University of Technology",
             "ror": "https://ror.org/02e2c7k09"
         }
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/GF_DNSxACC_2_",
+            "identifierType": "URL"
+        }
     ]
 }

@@ -31,5 +31,11 @@
             "name": "Swarm PDGS",
             "ror": ""
         }
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_ACCx_AE_2_",
+            "identifierType": "URL"
+        }
     ]
 }

@@ -34,5 +34,11 @@
             "name": "Institut de physique du globe de Paris",
             "ror": "https://ror.org/004gzqz66"
         }
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_MIO_SHA_2D",
+            "identifierType": "URL"
+        }
     ]
 }

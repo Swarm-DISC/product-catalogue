@@ -35,5 +35,11 @@
             "name": "Swedish Institute of Space Physics",
             "ror": "https://ror.org/043kppn11"
         }
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_LP_FP",
+            "identifierType": "URL"
+        }
     ]
 }

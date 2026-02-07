@@ -30,5 +30,11 @@
             "name": "Delft University of Technology",
             "ror": "https://ror.org/02e2c7k09"
         }
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/MM_CON_EPH_2_",
+            "identifierType": "URL"
+        }
     ]
 }

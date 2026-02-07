@@ -35,5 +35,11 @@
             "name": "Finnish Meteorological Institute",
             "ror": "https://ror.org/05hppb561"
         }
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_AEJxLPS_2F",
+            "identifierType": "URL"
+        }
     ]
 }

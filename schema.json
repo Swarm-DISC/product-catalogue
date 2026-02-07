@@ -85,6 +85,45 @@
                     "type": "integer",
                     "description": "Year when the product was created"
                 },
+                "identifiers": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "identifier": {
+                                "type": "string",
+                                "description": "The identifier value (e.g., DOI)"
+                            },
+                            "identifierType": {
+                                "type": "string",
+                                "enum": [
+                                    "DOI",
+                                    "URL"
+                                ],
+                                "description": "Type of identifier following DataCite terminology"
+                            },
+                            "role": {
+                                "type": "string",
+                                "enum": [
+                                    "concept",
+                                    "version",
+                                    "external"
+                                ],
+                                "description": "Role of this identifier (concept DOI for all versions, version-specific DOI, or external DOI for identical/similar dataset in independent system)"
+                            },
+                            "version": {
+                                "type": "string",
+                                "description": "Version number for version-specific identifiers"
+                            }
+                        },
+                        "required": [
+                            "identifier",
+                            "identifierType"
+                        ],
+                        "additionalProperties": false
+                    },
+                    "description": "List of identifiers following DataCite terminology - includes version DOIs, concept DOI, and related identifiers"
+                },
                 "link_files_ftp": {
                     "type": "string",
                     "format": "uri",

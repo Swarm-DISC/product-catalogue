@@ -35,5 +35,11 @@
             "name": "Swarm PDGS",
             "ror": ""
         }
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_ASMxBUR_1B",
+            "identifierType": "URL"
+        }
     ]
 }

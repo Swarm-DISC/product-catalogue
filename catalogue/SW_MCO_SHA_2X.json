@@ -32,5 +32,11 @@
             "name": "Technical University of Denmark",
             "ror": "https://ror.org/04qtj9h94"
         }
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_MCO_SHA_2X",
+            "identifierType": "URL"
+        }
     ]
 }

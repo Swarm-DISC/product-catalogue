@@ -30,5 +30,11 @@
             "name": "GFZ Helmholtz Centre for Geosciences",
             "ror": "https://ror.org/04z8jg394"
         }
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/GO_MAG_ACAL_CORR",
+            "identifierType": "URL"
+        }
     ]
 }

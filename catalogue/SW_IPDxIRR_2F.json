@@ -35,5 +35,11 @@
             "name": "University of Oslo",
             "ror": "https://ror.org/01xtthb56"
         }
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_IPDxIRR_2F",
+            "identifierType": "URL"
+        }
     ]
 }

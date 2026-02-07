@@ -33,5 +33,11 @@
     "related_resources": "<ul>\n\t<li>Toldbo, C., Sushkova, J., Herceg, M. et al. Mapping High Energy Particles Using Augmented Star Trackers On-Board Swarm. Space Sci Rev 218, 58 (2022). https://doi.org/10.1007/s11214-022-00925-z</li>\n</ul>\n",
     "details": "<table><thead>\n  <tr>\n    <th>Flag</th>\n    <th>Value</th>\n    <th>Description</th>\n    <th>Dim</th>\n    <th>Type</th>\n  </tr></thead>\n<tbody>\n  <tr>\n    <td rowspan=\"10\">Flags_EPF</td>\n    <td>0</td>\n    <td>Energetic particle flux estimate nominal</td>\n    <td>1</td>\n    <td>CDF_EPOCH</td>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>Star density above limit in field of view</td>\n    <td>1</td>\n    <td>CDF_UINT16</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>CHU temperature above limit</td>\n    <td>1</td>\n    <td>CDF_DOUBLE</td>\n  </tr>\n  <tr>\n    <td>4</td>\n    <td>Gain control not stabilized</td>\n    <td>1</td>\n    <td>CDF_DOUBLE</td>\n  </tr>\n  <tr>\n    <td>8</td>\n    <td>Raw particle count above limit</td>\n    <td>1</td>\n    <td>CDF_DOUBLE</td>\n  </tr>\n  <tr>\n    <td>16</td>\n    <td>Big bright object (BBO) detected</td>\n    <td>3</td>\n    <td>CDF_DOUBLE</td>\n  </tr>\n  <tr>\n    <td>32</td>\n    <td>CHU in high-rate mode (image smir)</td>\n    <td>3</td>\n    <td>CDF_UINT2</td>\n  </tr>\n  <tr>\n    <td>64</td>\n    <td>Non-valid attitude sample</td>\n    <td>3</td>\n    <td>CDF_DOUBLE</td>\n  </tr>\n  <tr>\n    <td>128</td>\n    <td>On-board processing not completed</td>\n    <td>3</td>\n    <td>CDF_DOUBLE</td>\n  </tr>\n  <tr>\n    <td>&gt;128</td>\n    <td>Any combination of the above</td>\n    <td>3</td>\n    <td>CDF_DOUBLE</td>\n  </tr>\n</tbody></table>",
     "changelog": "",
-    "fast_processing": false
+    "fast_processing": false,
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_STRxEPF_1B",
+            "identifierType": "URL"
+        }
+    ]
 }

@@ -32,5 +32,11 @@
             "name": "ETH Zurich",
             "ror": "https://ror.org/05a28rw58"
         }
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_MIN_1DM_2_",
+            "identifierType": "URL"
+        }
     ]
 }
