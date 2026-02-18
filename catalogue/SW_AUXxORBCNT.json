@@ -39,6 +39,11 @@
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_AUXxORBCNT",
             "identifierType": "URL"
+        },
+        {
+            "identifier": "10.57780/esa-f1bc8c2",
+            "identifierType": "DOI",
+            "role": "concept"
         }
     ]
 }

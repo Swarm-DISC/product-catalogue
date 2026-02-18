@@ -38,6 +38,11 @@
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_STRxEPF_1B",
             "identifierType": "URL"
+        },
+        {
+            "identifier": "10.57780/esa-9f7bf0b",
+            "identifierType": "DOI",
+            "role": "concept"
         }
     ]
 }

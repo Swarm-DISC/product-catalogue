@@ -39,6 +39,11 @@
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_GPSx_RN_1B",
             "identifierType": "URL"
+        },
+        {
+            "identifier": "10.57780/esa-fd42e49",
+            "identifierType": "DOI",
+            "role": "concept"
         }
     ]
 }

@@ -39,6 +39,11 @@
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_ASMxAUX_1B",
             "identifierType": "URL"
+        },
+        {
+            "identifier": "10.57780/esa-e80168d",
+            "identifierType": "DOI",
+            "role": "concept"
         }
     ]
 }

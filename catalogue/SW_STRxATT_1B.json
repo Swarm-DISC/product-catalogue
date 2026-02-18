@@ -39,6 +39,11 @@
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_STRxATT_1B",
             "identifierType": "URL"
+        },
+        {
+            "identifier": "10.57780/esa-cc563ac",
+            "identifierType": "DOI",
+            "role": "concept"
         }
     ]
 }

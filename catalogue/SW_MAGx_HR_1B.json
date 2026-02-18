@@ -40,6 +40,11 @@
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_MAGx_HR_1B",
             "identifierType": "URL"
+        },
+        {
+            "identifier": "10.57780/esa-c101a8d",
+            "identifierType": "DOI",
+            "role": "concept"
         }
     ]
 }

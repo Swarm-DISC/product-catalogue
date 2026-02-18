@@ -38,6 +38,11 @@
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_SC_xDYN_1B",
             "identifierType": "URL"
+        },
+        {
+            "identifier": "10.57780/esa-2ebc006",
+            "identifierType": "DOI",
+            "role": "concept"
         }
     ]
 }
