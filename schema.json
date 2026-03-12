@@ -124,6 +124,36 @@
                     },
                     "description": "List of identifiers following DataCite terminology - includes version DOIs, concept DOI, and related identifiers"
                 },
+                "citations": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "text": {
+                                "type": "string",
+                                "description": "Human-readable citation text"
+                            },
+                            "bibtex": {
+                                "type": "string",
+                                "description": "BibTeX representation of this citation"
+                            }
+                        },
+                        "anyOf": [
+                            {
+                                "required": [
+                                    "text"
+                                ]
+                            },
+                            {
+                                "required": [
+                                    "bibtex"
+                                ]
+                            }
+                        ],
+                        "additionalProperties": false
+                    },
+                    "description": "Ordered list of citations for this product. Convention: first item is the data citation. Each citation may include text, BibTeX, or both."
+                },
                 "link_files_ftp": {
                     "type": "string",
                     "format": "uri",
