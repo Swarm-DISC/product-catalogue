@@ -10,6 +10,32 @@
     "thematic_areas": [
         "Magnetic measurements"
     ],
+    "authors": [
+        {
+            "name": "European Space Agency",
+            "ror": "https://ror.org/03wd9za21"
+        },
+        {
+            "name": "Technical University of Denmark",
+            "ror": "https://ror.org/04qtj9h94"
+        }
+    ],
+    "creation_year": 2020,
+    "product_types": [
+        "CS_OPER_MAG"
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/CS_MAG",
+            "identifierType": "URL"
+        }
+    ],
+    "citations": [
+        {
+            "text": "European Space Agency, Technical University of Denmark, (2020), CS_MAG, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/CS_MAG",
+            "bibtex": "@misc{CS_MAG,\n  author = {European Space Agency and Technical University of Denmark},\n  title = {CS_MAG},\n  year = {2020},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/CS_MAG},\n}"
+        }
+    ],
     "description": "This product contains calibrated magnetic measurements derived from Cryosat-2 platform magnetometers",
     "link_files_http": "https://swarm-diss.eo.esa.int/#swarm/Multimission/CryoSat-2",
     "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Multimission/CryoSat-2",
@@ -20,21 +46,5 @@
     "related_resources": "<ul>\n\t<li>Olsen, N., Albini, G., Bouffard, J. et al., Magnetic observations from CryoSat-2: calibration and processing of satellite platform magnetometer data. Earth Planets Space 72, 48 (2020). <a class=\"reference external\" href=\"https://doi.org/10.1186/s40623-020-01171-9\">https://doi.org/10.1186/s40623-020-01171-9</a></li>\n</ul>\n",
     "details": "",
     "changelog": "",
-    "fast_processing": false,
-    "creation_year": 2020,
-    "product_types": [
-        "CS_OPER_MAG"
-    ],
-    "authors": [
-        {
-            "name": "Technical University of Denmark",
-            "ror": "https://ror.org/04qtj9h94"
-        }
-    ],
-    "identifiers": [
-        {
-            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/CS_MAG",
-            "identifierType": "URL"
-        }
-    ]
+    "fast_processing": false
 }

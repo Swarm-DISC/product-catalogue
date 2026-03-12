@@ -11,6 +11,32 @@
         "Space Weather",
         "Ionosphere/Magnetosphere"
     ],
+    "authors": [
+        {
+            "name": "European Space Agency",
+            "ror": "https://ror.org/03wd9za21"
+        },
+        {
+            "name": "GFZ Helmholtz Centre for Geosciences",
+            "ror": "https://ror.org/04z8jg394"
+        }
+    ],
+    "creation_year": 2022,
+    "product_types": [
+        "CH_OPER_TEC_TMS_2F"
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/CH_TEC_TMS_2F",
+            "identifierType": "URL"
+        }
+    ],
+    "citations": [
+        {
+            "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, (2022), CH_TEC_TMS_2F, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/CH_TEC_TMS_2F",
+            "bibtex": "@misc{CH_TEC_TMS_2F,\n  author = {European Space Agency and GFZ Helmholtz Centre for Geosciences},\n  title = {CH_TEC_TMS_2F},\n  year = {2022},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/CH_TEC_TMS_2F},\n}"
+        }
+    ],
     "description": "Integrated electron density along the line of sight from CHAMP to GNSS satellites",
     "link_files_http": "https://swarm-diss.eo.esa.int/#swarm/Multimission/CHAMP/TEC",
     "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Multimission/CHAMP/TEC",
@@ -21,21 +47,5 @@
     "related_resources": "<ul>\n\t<li><a href=\"https://earth.esa.int/eogateway/activities/tiro\">TIRO Project</a></li>\n</ul>",
     "details": "",
     "changelog": "",
-    "fast_processing": false,
-    "creation_year": 2022,
-    "product_types": [
-        "CH_OPER_TEC_TMS_2F"
-    ],
-    "authors": [
-        {
-            "name": "GFZ Helmholtz Centre for Geosciences",
-            "ror": "https://ror.org/04z8jg394"
-        }
-    ],
-    "identifiers": [
-        {
-            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/CH_TEC_TMS_2F",
-            "identifierType": "URL"
-        }
-    ]
+    "fast_processing": false
 }

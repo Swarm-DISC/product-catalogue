@@ -12,6 +12,34 @@
         "Thermosphere",
         "Acceleration measurements"
     ],
+    "authors": [
+        {
+            "name": "European Space Agency",
+            "ror": "https://ror.org/03wd9za21"
+        },
+        {
+            "name": "Leibniz University Hannover",
+            "ror": "https://ror.org/0304hq317"
+        }
+    ],
+    "creation_year": 2021,
+    "product_types": [
+        "SW_OPER_ACCACAL_2_",
+        "SW_OPER_ACCBCAL_2_",
+        "SW_OPER_ACCCCAL_2_"
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_ACCxCAL_2_",
+            "identifierType": "URL"
+        }
+    ],
+    "citations": [
+        {
+            "text": "European Space Agency, Leibniz University Hannover, (2021), SW_ACCxCAL_2_, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_ACCxCAL_2_",
+            "bibtex": "@misc{SW_ACCxCAL_2_,\n  author = {European Space Agency and Leibniz University Hannover},\n  title = {SW_ACCxCAL_2_},\n  year = {2021},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_ACCxCAL_2_},\n}"
+        }
+    ],
     "description": "Time series of corrected and calibrated acceleration, including all corrections and calibration parameters",
     "link_files_http": "https://swarm-diss.eo.esa.int/#swarm/Level2daily/Latest_baselines/ACC/CAL",
     "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Level2daily/Latest_baselines/ACC/CAL",
@@ -22,23 +50,5 @@
     "related_resources": "",
     "details": "<table border=\"1\">\n\t<tbody>\n    <tr>\n        <td><b>Product identifier</b></td>\n        <td><b>ACCxCAL_2_</b></td>\n    </tr>\n    <tr>\n        <td>Definition</td>\n        <td>Time series of corrected and calibrated acceleration, including all corrections, flags, and calibration parameters</td>\n    </tr>\n    <tr>\n        <td>Input Data</td>\n        <td>ACCx_PR_1B, ACCxPOD_2_, ACCx_FMi2, ACCxDISi2_, MODx_SC_1B, SC_xDYN_1B</td>\n    </tr>\n    <tr>\n        <td>Input Time Span</td>\n        <td>24 hours</td>\n    </tr>\n    <tr>\n        <td>Spatial representation</td>\n        <td>Three-dimensional time series along satellite orbit</td>\n    </tr>\n    <tr>\n        <td>Time representation</td>\n        <td>UTC</td>\n    </tr>\n    <tr>\n        <td>Units</td>\n        <td>m/s<sup>2</sup> for accelerations, unitless for scale factors and flags</td>\n    </tr>\n    <tr>\n        <td>Resolution</td>\n        <td>64 bit double precision floating point format</td>\n    </tr>\n    <tr>\n        <td>Quality indicator</td>\n        <td>Validation report ACCxVAL_2_ \n<br>Global attribute \"DAILY_QUALITY_INDEX\" of Type CDF_REAL, which ranges from 1.0 (good data quality) to 5.0 (bad data quality)</td>\n    </tr>\n    <tr>\n        <td>Data volume</td>\n        <td>Up to 5 MB per day</td>\n    </tr>\n    <tr>\n        <td>Output Data</td>\n        <td>CDF file with corrected and calibrated accelerations from the accelerometer, all corrections and calibration parameters, and flags; sampling rate is 1 Hz (accelerations are at original measurement epochs in the associated product ACCx_PR_1B)</td>\n    </tr>\n    <tr>\n        <td>Output time span</td>\n        <td>1 day</td>\n    </tr>\n    <tr>\n        <td>Update rate</td>\n        <td>3 months</td>\n    </tr>\n    <tr>\n        <td>Latency</td>\n        <td>1 month</td>\n    </tr>\n    <tr>\n        <td>Notes</td>\n        <td>All accelerations are provided in the CRF (x-direction is roughly along-track, y-direction is roughly cross-track, z-direction is roughly nadir).\n<br>Calibration was performed against non-gravitational accelerations from POD that are contained in product ACCxPOD_2_, combined with force models that are contained in the product ACCx_FMi2_.\n<br>Information on data quality and validity and on composition of the validity flag \u201cflag_val\u201d is available in the metadata of the cdf-file.\n<br>Early versions of this product will contain only along-track acceleration data.</td>\n    </tr>\n\t</tbody>\n</table>\n\n<p>More details about the corrections and associated flag values can be found in the CDF global attributes.</p>\n<p>Variable \"<strong>flag_cor</strong>\" assembles corrections: flag a_xxx = 1 (correction applied) or flag a_xxx = 0 (correction not applied), and is coded in the binary system:<br><code>(flag a_stp = 1)*2^0 + (flag a_tmp = 1)*2^1 +&nbsp;</code><br><code>(flag a_gg &nbsp;= 0)*2^2 + (flag a_ca &nbsp;= 0)*2^3 +&nbsp;</code><br><code>(flag a_aa &nbsp;= 0)*2^4 + (flag a_spk = 1)*2^5 +&nbsp;</code><br><code>(flag a_jit = 1)*2^6 + (flag a_rh &nbsp;= 0/1)*2^7</code></p>\n<p>Related experimental (<code>EXPT</code>) products can be found in the Swarm dissemination server in the directory: <code>Advanced/Accelerometer_Data</code></p>",
     "changelog": "",
-    "fast_processing": false,
-    "creation_year": 2021,
-    "product_types": [
-        "SW_OPER_ACCACAL_2_",
-        "SW_OPER_ACCBCAL_2_",
-        "SW_OPER_ACCCCAL_2_"
-    ],
-    "authors": [
-        {
-            "name": "Leibniz University Hannover",
-            "ror": "https://ror.org/0304hq317"
-        }
-    ],
-    "identifiers": [
-        {
-            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_ACCxCAL_2_",
-            "identifierType": "URL"
-        }
-    ]
+    "fast_processing": false
 }

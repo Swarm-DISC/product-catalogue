@@ -13,6 +13,33 @@
         "Thermosphere",
         "Space Weather"
     ],
+    "authors": [
+        {
+            "name": "European Space Agency",
+            "ror": "https://ror.org/03wd9za21"
+        },
+        {
+            "name": "Delft University of Technology",
+            "ror": "https://ror.org/02e2c7k09"
+        }
+    ],
+    "creation_year": 2022,
+    "product_types": [
+        "GR_OPER_DNS1ACC_2_",
+        "GR_OPER_DNS2ACC_2_"
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/GR_DNSxACC_2_",
+            "identifierType": "URL"
+        }
+    ],
+    "citations": [
+        {
+            "text": "European Space Agency, Delft University of Technology, (2022), GR_DNSxACC_2_, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/GR_DNSxACC_2_",
+            "bibtex": "@misc{GR_DNSxACC_2_,\n  author = {European Space Agency and Delft University of Technology},\n  title = {GR_DNSxACC_2_},\n  year = {2022},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/GR_DNSxACC_2_},\n}"
+        }
+    ],
     "description": "This product contains thermosphere mass density at the GRACE satellite locations",
     "link_files_http": "https://swarm-diss.eo.esa.int/#swarm/Multimission/GRACE/DNS",
     "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Multimission/GRACE/DNS",
@@ -23,22 +50,5 @@
     "related_resources": "<ul>\n\t<li><a href=\"https://earth.esa.int/eogateway/activities/toleos\">TOLEOS Project</a></li>\n\t<li><a href=\"http://thermosphere.tudelft.nl/\">TU Delft thermosphere data</a></li>\n</ul>",
     "details": "",
     "changelog": "",
-    "fast_processing": false,
-    "creation_year": 2022,
-    "product_types": [
-        "GR_OPER_DNS1ACC_2_",
-        "GR_OPER_DNS2ACC_2_"
-    ],
-    "authors": [
-        {
-            "name": "Delft University of Technology",
-            "ror": "https://ror.org/02e2c7k09"
-        }
-    ],
-    "identifiers": [
-        {
-            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/GR_DNSxACC_2_",
-            "identifierType": "URL"
-        }
-    ]
+    "fast_processing": false
 }

@@ -13,6 +13,34 @@
         "Plasma measurements",
         "Space Weather"
     ],
+    "authors": [
+        {
+            "name": "European Space Agency",
+            "ror": "https://ror.org/03wd9za21"
+        },
+        {
+            "name": "University of Calgary",
+            "ror": "https://ror.org/03yjb2x39"
+        }
+    ],
+    "creation_year": 2014,
+    "product_types": [
+        "SW_PREL_EFIA_TII1B",
+        "SW_PREL_EFIB_TII1B",
+        "SW_PREL_EFIC_TII1B"
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_TII1B",
+            "identifierType": "URL"
+        }
+    ],
+    "citations": [
+        {
+            "text": "European Space Agency, University of Calgary, (2014), SW_EFIx_TII1B, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_TII1B",
+            "bibtex": "@misc{SW_EFIx_TII1B,\n  author = {European Space Agency and University of Calgary},\n  title = {SW_EFIx_TII1B},\n  year = {2014},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_TII1B},\n}"
+        }
+    ],
     "description": "Swarm Electric Field Instrument (EFI) Thermal Ion Imager (TII) parameter for ionospheric ions bulk velocity, ion temperature, and electric field measurements obtained from a development, or \"sandbox\", processor from University of Calgary.",
     "link_files_http": "https://swarm-diss.eo.esa.int/#swarm/Advanced/Plasma_Data/Provisional_Plasma_dataset/Thermal_Ion_Imagers_Data",
     "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Advanced/Plasma_Data/Provisional_Plasma_dataset/Thermal_Ion_Imagers_Data",
@@ -23,23 +51,5 @@
     "related_resources": "<p><strong>Product Descriptions:</strong></p>\n\n<ul>\n\t<li><a href=\"https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FAdvanced%2FPlasma_Data%2FProvisional_Plasma_dataset%2FThermal_Ion_Imagers_Data%2FSW-RN-UoC-GS-002_Preliminary_TII_Data_ReleaseNotes.pdf\">Product Release Note</a></li>\n\n</ul>",
     "details": "",
     "changelog": "",
-    "fast_processing": false,
-    "creation_year": 2014,
-    "product_types": [
-        "SW_PREL_EFIA_TII1B",
-        "SW_PREL_EFIB_TII1B",
-        "SW_PREL_EFIC_TII1B"
-    ],
-    "authors": [
-        {
-            "name": "University of Calgary",
-            "ror": "https://ror.org/03yjb2x39"
-        }
-    ],
-    "identifiers": [
-        {
-            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_TII1B",
-            "identifierType": "URL"
-        }
-    ]
+    "fast_processing": false
 }

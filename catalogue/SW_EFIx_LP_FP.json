@@ -13,6 +13,34 @@
         "Plasma measurements",
         "Space Weather"
     ],
+    "authors": [
+        {
+            "name": "European Space Agency",
+            "ror": "https://ror.org/03wd9za21"
+        },
+        {
+            "name": "Swedish Institute of Space Physics",
+            "ror": "https://ror.org/043kppn11"
+        }
+    ],
+    "creation_year": 2017,
+    "product_types": [
+        "SW_EXTD_EFIA_LP_FP",
+        "SW_EXTD_EFIB_LP_FP",
+        "SW_EXTD_EFIC_LP_FP"
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_LP_FP",
+            "identifierType": "URL"
+        }
+    ],
+    "citations": [
+        {
+            "text": "European Space Agency, Swedish Institute of Space Physics, (2017), SW_EFIx_LP_FP, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_LP_FP",
+            "bibtex": "@misc{SW_EFIx_LP_FP,\n  author = {European Space Agency and Swedish Institute of Space Physics},\n  title = {SW_EFIx_LP_FP},\n  year = {2017},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_LP_FP},\n}"
+        }
+    ],
     "description": "The EFIx_LP_FP Product contains extended Swarm Electrical Field Instrument (EFI) plasma data derived from the faceplate (FP) current at 16 Hz.\n\nThey include:\n\n - estimates of the ionospheric electron density from the faceplate current at 16 Hz resolution;\n - the actual 16 Hz faceplate current measurements;\n - geodetic coordinates of the satellite positions interpolated to the times of the current measurements.\n\n",
     "link_files_http": "https://swarm-diss.eo.esa.int/#swarm/Advanced/Plasma_Data/16_Hz_Faceplate_plasma_density",
     "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Advanced/Plasma_Data/16_Hz_Faceplate_plasma_density",
@@ -23,23 +51,5 @@
     "related_resources": "<p><strong>Product Descriptions:</strong></p>\n\n<ul>\n\t<li><a href=\"https://earth.esa.int/eogateway/documents/20142/37627/SW-RN-IRF-GS-005_Extended_LP_Data_Probes.pdf/dfacf8ec-4c15-3870-35f1-83325ebd6bc9\">Product Release Note</a></li>\n\n</ul>\n\n\n",
     "details": "",
     "changelog": "",
-    "fast_processing": false,
-    "creation_year": 2017,
-    "product_types": [
-        "SW_EXTD_EFIA_LP_FP",
-        "SW_EXTD_EFIB_LP_FP",
-        "SW_EXTD_EFIC_LP_FP"
-    ],
-    "authors": [
-        {
-            "name": "Swedish Institute of Space Physics",
-            "ror": "https://ror.org/043kppn11"
-        }
-    ],
-    "identifiers": [
-        {
-            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_LP_FP",
-            "identifierType": "URL"
-        }
-    ]
+    "fast_processing": false
 }

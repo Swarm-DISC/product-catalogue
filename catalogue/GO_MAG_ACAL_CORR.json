@@ -10,6 +10,32 @@
     "thematic_areas": [
         "Magnetic measurements"
     ],
+    "authors": [
+        {
+            "name": "European Space Agency",
+            "ror": "https://ror.org/03wd9za21"
+        },
+        {
+            "name": "GFZ Helmholtz Centre for Geosciences",
+            "ror": "https://ror.org/04z8jg394"
+        }
+    ],
+    "creation_year": 2022,
+    "product_types": [
+        "GO_MAG_ACAL_CORR"
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/GO_MAG_ACAL_CORR",
+            "identifierType": "URL"
+        }
+    ],
+    "citations": [
+        {
+            "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, (2022), GO_MAG_ACAL_CORR, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/GO_MAG_ACAL_CORR",
+            "bibtex": "@misc{GO_MAG_ACAL_CORR,\n  author = {European Space Agency and GFZ Helmholtz Centre for Geosciences},\n  title = {GO_MAG_ACAL_CORR},\n  year = {2022},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/GO_MAG_ACAL_CORR},\n}"
+        }
+    ],
     "description": "This product contains calibrated magnetic measurements derived from GOCE platform magnetometers",
     "link_files_http": "https://swarm-diss.eo.esa.int/#swarm/Multimission/GOCE/Magnetic_data",
     "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Multimission/GOCE/Magnetic_data",
@@ -20,21 +46,5 @@
     "related_resources": "<ul>\n\t<li>Michaelis, Ingo; Korte, Monika (2022), GOCE calibrated and characterised magnetometer data. V. 0205. GFZ Data Services. <a class=\"reference external\" href=\"https://doi.org/10.5880/GFZ.2.3.2022.001\">https://doi.org/10.5880/GFZ.2.3.2022.001</a></li>\n</ul>\n",
     "details": "",
     "changelog": "",
-    "fast_processing": false,
-    "creation_year": 2022,
-    "product_types": [
-        "GO_MAG_ACAL_CORR"
-    ],
-    "authors": [
-        {
-            "name": "GFZ Helmholtz Centre for Geosciences",
-            "ror": "https://ror.org/04z8jg394"
-        }
-    ],
-    "identifiers": [
-        {
-            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/GO_MAG_ACAL_CORR",
-            "identifierType": "URL"
-        }
-    ]
+    "fast_processing": false
 }

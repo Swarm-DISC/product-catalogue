@@ -12,28 +12,21 @@
     "thematic_areas": [
         "Orbit information"
     ],
-    "description": "The Swarm orbit counter auxiliary data file provides precise Swarm orbit number information. The start of an orbit is defined as the Equator crossing of the ascending node (i.e. the northbound Equator crossing).",
-    "link_files_http": "https://swarm-diss.eo.esa.int/#swarm/Level1b/Latest_baselines/ORBCNT",
-    "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Level1b/Latest_baselines/ORBCNT",
-    "link_vires_gui": "",
-    "link_notebook": "",
-    "link_hapi": "",
-    "variables_table": "",
-    "related_resources": "",
-    "details": "<table border=\"1\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Field name</th>\n\t\t\t<th>Type</th>\n\t\t\t<th>Unit</th>\n\t\t\t<th>Contents</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>orbit</td>\n\t\t\t<td>integer</td>\n\t\t\t<td>-</td>\n\t\t\t<td>Orbit number</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>MJD2000</td>\n\t\t\t<td>real</td>\n\t\t\t<td>MJD2000</td>\n\t\t\t<td>Orbit start date/time in MJD2000</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>date</td>\n\t\t\t<td>string</td>\n\t\t\t<td>-</td>\n\t\t\t<td>Orbit start date</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>UT</td>\n\t\t\t<td>string</td>\n\t\t\t<td>UTC</td>\n\t\t\t<td>Orbit start time</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>phi_AN</td>\n\t\t\t<td>real</td>\n\t\t\t<td>deg</td>\n\t\t\t<td>Longitude of orbit start</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Source</td>\n\t\t\t<td>integer</td>\n\t\t\t<td>-</td>\n\t\t\t<td>Source of orbit number information Values:<br />\n\t\t\tBest quality = 0<br />\n\t\t\tReduced quality = 1</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
-    "changelog": "",
-    "fast_processing": false,
+    "authors": [
+        {
+            "name": "European Space Agency",
+            "ror": "https://ror.org/03wd9za21"
+        },
+        {
+            "name": "Swarm PDGS",
+            "ror": ""
+        }
+    ],
     "creation_year": 2013,
     "product_types": [
         "SW_OPER_AUXAORBCNT",
         "SW_OPER_AUXBORBCNT",
         "SW_OPER_AUXCORBCNT"
-    ],
-    "authors": [
-        {
-            "name": "Swarm PDGS",
-            "ror": ""
-        }
     ],
     "identifiers": [
         {
@@ -45,5 +38,22 @@
             "identifierType": "DOI",
             "role": "concept"
         }
-    ]
+    ],
+    "citations": [
+        {
+            "text": "European Space Agency, Swarm PDGS, (2013), SW_AUXxORBCNT, European Space Agency, https://doi.org/10.57780/esa-f1bc8c2",
+            "bibtex": "@misc{SW_AUXxORBCNT,\n  author = {European Space Agency and Swarm PDGS},\n  title = {SW_AUXxORBCNT},\n  year = {2013},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-f1bc8c2},\n  url = {https://doi.org/10.57780/esa-f1bc8c2},\n}"
+        }
+    ],
+    "description": "The Swarm orbit counter auxiliary data file provides precise Swarm orbit number information. The start of an orbit is defined as the Equator crossing of the ascending node (i.e. the northbound Equator crossing).",
+    "link_files_http": "https://swarm-diss.eo.esa.int/#swarm/Level1b/Latest_baselines/ORBCNT",
+    "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Level1b/Latest_baselines/ORBCNT",
+    "link_vires_gui": "",
+    "link_notebook": "",
+    "link_hapi": "",
+    "variables_table": "",
+    "related_resources": "",
+    "details": "<table border=\"1\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Field name</th>\n\t\t\t<th>Type</th>\n\t\t\t<th>Unit</th>\n\t\t\t<th>Contents</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>orbit</td>\n\t\t\t<td>integer</td>\n\t\t\t<td>-</td>\n\t\t\t<td>Orbit number</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>MJD2000</td>\n\t\t\t<td>real</td>\n\t\t\t<td>MJD2000</td>\n\t\t\t<td>Orbit start date/time in MJD2000</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>date</td>\n\t\t\t<td>string</td>\n\t\t\t<td>-</td>\n\t\t\t<td>Orbit start date</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>UT</td>\n\t\t\t<td>string</td>\n\t\t\t<td>UTC</td>\n\t\t\t<td>Orbit start time</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>phi_AN</td>\n\t\t\t<td>real</td>\n\t\t\t<td>deg</td>\n\t\t\t<td>Longitude of orbit start</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Source</td>\n\t\t\t<td>integer</td>\n\t\t\t<td>-</td>\n\t\t\t<td>Source of orbit number information Values:<br />\n\t\t\tBest quality = 0<br />\n\t\t\tReduced quality = 1</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+    "changelog": "",
+    "fast_processing": false
 }

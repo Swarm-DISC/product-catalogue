@@ -10,6 +10,32 @@
     "thematic_areas": [
         "Ephemeris"
     ],
+    "authors": [
+        {
+            "name": "European Space Agency",
+            "ror": "https://ror.org/03wd9za21"
+        },
+        {
+            "name": "Delft University of Technology",
+            "ror": "https://ror.org/02e2c7k09"
+        }
+    ],
+    "creation_year": 2022,
+    "product_types": [
+        "MM_OPER_CON_EPH_2_"
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/MM_CON_EPH_2_",
+            "identifierType": "URL"
+        }
+    ],
+    "citations": [
+        {
+            "text": "European Space Agency, Delft University of Technology, (2022), MM_CON_EPH_2_, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/MM_CON_EPH_2_",
+            "bibtex": "@misc{MM_CON_EPH_2_,\n  author = {European Space Agency and Delft University of Technology},\n  title = {MM_CON_EPH_2_},\n  year = {2022},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/MM_CON_EPH_2_},\n}"
+        }
+    ],
     "description": "This product contains conjunction information for pairs of satellites derived from their respective ephemeris data. Conjunctions between Swarm (A, B, C), CHAMP, GOCE, GRACE (1, 2), and GRACE-FO (1, 2) are included.",
     "link_files_http": "https://swarm-diss.eo.esa.int/#swarm/Multimission/Combined_Mission_Data/Conjunction",
     "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Multimission/Combined_Mission_Data/Conjunction",
@@ -20,21 +46,5 @@
     "related_resources": "<ul>\n\t<li><a href=\"https://earth.esa.int/eogateway/activities/toleos\">TOLEOS Project</a></li>\n\t<li><a href=\"http://thermosphere.tudelft.nl/\">TU Delft thermosphere data</a></li>\n</ul>",
     "details": "",
     "changelog": "",
-    "fast_processing": false,
-    "creation_year": 2022,
-    "product_types": [
-        "MM_OPER_CON_EPH_2_"
-    ],
-    "authors": [
-        {
-            "name": "Delft University of Technology",
-            "ror": "https://ror.org/02e2c7k09"
-        }
-    ],
-    "identifiers": [
-        {
-            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/MM_CON_EPH_2_",
-            "identifierType": "URL"
-        }
-    ]
+    "fast_processing": false
 }

@@ -12,6 +12,33 @@
         "Magnetic measurements",
         "Space Weather"
     ],
+    "authors": [
+        {
+            "name": "European Space Agency",
+            "ror": "https://ror.org/03wd9za21"
+        },
+        {
+            "name": "Institut de physique du globe de Paris",
+            "ror": "https://ror.org/004gzqz66"
+        }
+    ],
+    "creation_year": 2023,
+    "product_types": [
+        "SW_OPER_WHIAEVT_2_",
+        "SW_OPER_WHIBEVT_2_"
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_WHIxEVT_2_",
+            "identifierType": "URL"
+        }
+    ],
+    "citations": [
+        {
+            "text": "European Space Agency, Institut de physique du globe de Paris, (2023), SW_WHIxEVT_2_, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_WHIxEVT_2_",
+            "bibtex": "@misc{SW_WHIxEVT_2_,\n  author = {European Space Agency and Institut de physique du globe de Paris},\n  title = {SW_WHIxEVT_2_},\n  year = {2023},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_WHIxEVT_2_},\n}"
+        }
+    ],
     "description": "The WHIxEVT_2_ Product contains information about the Extremely Low Frequency (ELF) portion of whistlers detected during ASM Burst Mode sessions.",
     "link_files_http": "https://swarm-diss.eo.esa.int/#swarm/Level2daily/Latest_baselines/WHI/EVT",
     "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Level2daily/Latest_baselines/WHI/EVT",
@@ -22,22 +49,5 @@
     "related_resources": "<p><strong>ASM Whistler Product Description:</strong></p>\n\n<ul>\n\t<li><a href=\"https://earth.esa.int/eogateway/missions/swarm\">ASM Whistler Product Definition</a></li>\n</ul>\n\n<p><strong>ASM Whistler Available Product list:</strong></p>\n\n<ul>\n\t<li><a href=\"https://earth.esa.int/eogateway/missions/swarm\">ASM Whistler Product list</a></li>\n</ul>",
     "details": "<p>In the Dim column, N indicates the number of whistler events contained in the data file, m the number of points of the corresponding time-series, n the number of points of the corresponding PSD, p the number of frequencies of the PSD</p>\n\n<p>Flags is stored as a 8 bits unsigned integer and can nominally take values from 0 to 15. This number can be written in a binary form such as Flags = &#39;0000abcd&#39;, where:</p>\n\n<ul>\n\t<li>&lsquo;a&rsquo; stands for Flag_outlier value,</li>\n\t<li>&lsquo;b&rsquo; stands for Flag_magnetic_condition value,</li>\n\t<li>&lsquo;c&rsquo; stands for Flag_heater value,</li>\n\t<li>&lsquo;d&rsquo; stands for Flag_step value.</li>\n</ul>",
     "changelog": "",
-    "fast_processing": false,
-    "creation_year": 2023,
-    "product_types": [
-        "SW_OPER_WHIAEVT_2_",
-        "SW_OPER_WHIBEVT_2_"
-    ],
-    "authors": [
-        {
-            "name": "Institut de physique du globe de Paris",
-            "ror": "https://ror.org/004gzqz66"
-        }
-    ],
-    "identifiers": [
-        {
-            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_WHIxEVT_2_",
-            "identifierType": "URL"
-        }
-    ]
+    "fast_processing": false
 }
