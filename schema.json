@@ -107,52 +107,40 @@
                                 "enum": [
                                     "concept",
                                     "version",
-                                    "external"
+                                    "external",
+                                    "related"
                                 ],
-                                "description": "Role of this identifier (concept DOI for all versions, version-specific DOI, or external DOI for identical/similar dataset in independent system)"
+                                "description": "Role of this identifier: concept DOI covering all versions, version-specific DOI, external DOI for an identical/similar dataset in an independent system, or related resource (e.g. companion paper, derived dataset)"
                             },
                             "version": {
                                 "type": "string",
                                 "description": "Version number for version-specific identifiers"
+                            },
+                            "primary": {
+                                "type": "boolean",
+                                "description": "Marks this identifier as the primary identifier for the product. At most one entry in the array should have primary=true; its citation (if present) is the data citation."
+                            },
+                            "citation": {
+                                "type": "object",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "description": "Human-readable citation text"
+                                    },
+                                    "bibtex": {
+                                        "type": "string",
+                                        "description": "BibTeX representation of this citation"
+                                    }
+                                },
+                                "description": "Citation for the resource named by this identifier. The citation on the primary identifier is the product's data citation."
                             }
                         },
                         "required": [
                             "identifier",
                             "identifierType"
-                        ],
-                        "additionalProperties": false
+                        ]
                     },
-                    "description": "List of identifiers following DataCite terminology - includes version DOIs, concept DOI, and related identifiers"
-                },
-                "citations": {
-                    "type": "array",
-                    "items": {
-                        "type": "object",
-                        "properties": {
-                            "text": {
-                                "type": "string",
-                                "description": "Human-readable citation text"
-                            },
-                            "bibtex": {
-                                "type": "string",
-                                "description": "BibTeX representation of this citation"
-                            }
-                        },
-                        "anyOf": [
-                            {
-                                "required": [
-                                    "text"
-                                ]
-                            },
-                            {
-                                "required": [
-                                    "bibtex"
-                                ]
-                            }
-                        ],
-                        "additionalProperties": false
-                    },
-                    "description": "Ordered list of citations for this product. Convention: first item is the data citation. Each citation may include text, BibTeX, or both."
+                    "description": "List of identifiers following DataCite terminology - includes concept DOI, version DOIs, and related identifiers. Exactly one entry should carry primary=true; each entry may carry its own citation sub-object."
                 },
                 "link_files_ftp": {
                     "type": "string",

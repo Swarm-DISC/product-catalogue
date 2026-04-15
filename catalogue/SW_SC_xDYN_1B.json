@@ -35,13 +35,12 @@
         {
             "identifier": "10.57780/esa-2ebc006",
             "identifierType": "DOI",
-            "role": "concept"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, Swarm PDGS, (2013), SW_SC_xDYN_1B, European Space Agency, https://doi.org/10.57780/esa-2ebc006",
-            "bibtex": "@misc{SW_SC_xDYN_1B,\n  author = {European Space Agency and Swarm PDGS},\n  title = {SW_SC_xDYN_1B},\n  year = {2013},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-2ebc006},\n  url = {https://doi.org/10.57780/esa-2ebc006},\n}"
+            "role": "concept",
+            "primary": true,
+            "citation": {
+                "text": "European Space Agency, Swarm PDGS, 2013, \"SW_SC_xDYN_1B\", European Space Agency, https://doi.org/10.57780/esa-2ebc006",
+                "bibtex": "@misc{SW_SC_xDYN_1B,\n  author = {{European Space Agency} and {Swarm PDGS}},\n  title = {SW_SC_xDYN_1B},\n  year = {2013},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-2ebc006},\n  url = {https://doi.org/10.57780/esa-2ebc006},\n}"
+            }
         }
     ],
     "description": "The SC_xDYN_1B Product contains auxiliary data needed for precise orbit determination and non-gravitational force modelling.",

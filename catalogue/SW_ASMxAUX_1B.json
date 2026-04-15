@@ -36,13 +36,12 @@
         {
             "identifier": "10.57780/esa-e80168d",
             "identifierType": "DOI",
-            "role": "concept"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, Swarm PDGS, (2013), SW_ASMxAUX_1B, European Space Agency, https://doi.org/10.57780/esa-e80168d",
-            "bibtex": "@misc{SW_ASMxAUX_1B,\n  author = {European Space Agency and Swarm PDGS},\n  title = {SW_ASMxAUX_1B},\n  year = {2013},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-e80168d},\n  url = {https://doi.org/10.57780/esa-e80168d},\n}"
+            "role": "concept",
+            "primary": true,
+            "citation": {
+                "text": "European Space Agency, Swarm PDGS, 2013, \"SW_ASMxAUX_1B\", European Space Agency, https://doi.org/10.57780/esa-e80168d",
+                "bibtex": "@misc{SW_ASMxAUX_1B,\n  author = {{European Space Agency} and {Swarm PDGS}},\n  title = {SW_ASMxAUX_1B},\n  year = {2013},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-e80168d},\n  url = {https://doi.org/10.57780/esa-e80168d},\n}"
+            }
         }
     ],
     "description": "The ASMxAUX_1B Product contains detailed information on the S/C magnetic stray fields and the Sun induced stray field at the ASM sensor position. The data are provided at 50 Hz at the time-instants of the VFM measurements (for internal practical purposes); the stray field vectors are provided in the ASM sensor frame.",

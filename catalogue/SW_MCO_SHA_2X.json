@@ -29,13 +29,11 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_MCO_SHA_2X",
-            "identifierType": "URL"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, Technical University of Denmark, (2018), SW_MCO_SHA_2X, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_MCO_SHA_2X",
-            "bibtex": "@misc{SW_MCO_SHA_2X,\n  author = {European Space Agency and Technical University of Denmark},\n  title = {SW_MCO_SHA_2X},\n  year = {2018},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_MCO_SHA_2X},\n}"
+            "identifierType": "URL",
+            "citation": {
+                "text": "European Space Agency, Technical University of Denmark, 2018, \"SW_MCO_SHA_2X\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_MCO_SHA_2X",
+                "bibtex": "@misc{SW_MCO_SHA_2X,\n  author = {{European Space Agency} and {Technical University of Denmark}},\n  title = {SW_MCO_SHA_2X},\n  year = {2018},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_MCO_SHA_2X},\n}"
+            }
         }
     ],
     "description": "CHAOS model: spherical harmonic model of the main (core) field and its temporal variation\n\nAlso known as CHAOS-Core",

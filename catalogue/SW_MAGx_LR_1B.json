@@ -37,13 +37,12 @@
         {
             "identifier": "10.57780/esa-091794d",
             "identifierType": "DOI",
-            "role": "concept"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, Swarm PDGS, (2013), SW_MAGx_LR_1B, European Space Agency, https://doi.org/10.57780/esa-091794d",
-            "bibtex": "@misc{SW_MAGx_LR_1B,\n  author = {European Space Agency and Swarm PDGS},\n  title = {SW_MAGx_LR_1B},\n  year = {2013},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-091794d},\n  url = {https://doi.org/10.57780/esa-091794d},\n}"
+            "role": "concept",
+            "primary": true,
+            "citation": {
+                "text": "European Space Agency, Swarm PDGS, 2013, \"SW_MAGx_LR_1B\", European Space Agency, https://doi.org/10.57780/esa-091794d",
+                "bibtex": "@misc{SW_MAGx_LR_1B,\n  author = {{European Space Agency} and {Swarm PDGS}},\n  title = {SW_MAGx_LR_1B},\n  year = {2013},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-091794d},\n  url = {https://doi.org/10.57780/esa-091794d},\n}"
+            }
         }
     ],
     "description": "The MAGx_LR_1B Product contains magnetic vector and scalar data at 1 Hz rate. The spacecraft data are processed to provide MAGx_LR_1B data at exact UTC seconds, i.e. both VFM vector and ASM scalar data are interpolated to yield these data. Hence, small gaps in the VFM or ASM data need not cause gaps in the product as the gaps may be filled by this interpolation. Any gaps, however, will have an impact on the error estimate of the associated product element.",

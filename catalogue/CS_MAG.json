@@ -27,13 +27,11 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/CS_MAG",
-            "identifierType": "URL"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, Technical University of Denmark, (2020), CS_MAG, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/CS_MAG",
-            "bibtex": "@misc{CS_MAG,\n  author = {European Space Agency and Technical University of Denmark},\n  title = {CS_MAG},\n  year = {2020},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/CS_MAG},\n}"
+            "identifierType": "URL",
+            "citation": {
+                "text": "European Space Agency, Technical University of Denmark, 2020, \"CS_MAG\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/CS_MAG",
+                "bibtex": "@misc{CS_MAG,\n  author = {{European Space Agency} and {Technical University of Denmark}},\n  title = {CS_MAG},\n  year = {2020},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/CS_MAG},\n}"
+            }
         }
     ],
     "description": "This product contains calibrated magnetic measurements derived from Cryosat-2 platform magnetometers",

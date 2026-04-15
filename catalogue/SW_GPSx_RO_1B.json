@@ -36,13 +36,12 @@
         {
             "identifier": "10.57780/esa-1e13ecd",
             "identifierType": "DOI",
-            "role": "concept"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, Swarm PDGS, (2013), SW_GPSx_RO_1B, European Space Agency, https://doi.org/10.57780/esa-1e13ecd",
-            "bibtex": "@misc{SW_GPSx_RO_1B,\n  author = {European Space Agency and Swarm PDGS},\n  title = {SW_GPSx_RO_1B},\n  year = {2013},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-1e13ecd},\n  url = {https://doi.org/10.57780/esa-1e13ecd},\n}"
+            "role": "concept",
+            "primary": true,
+            "citation": {
+                "text": "European Space Agency, Swarm PDGS, 2013, \"SW_GPSx_RO_1B\", European Space Agency, https://doi.org/10.57780/esa-1e13ecd",
+                "bibtex": "@misc{SW_GPSx_RO_1B,\n  author = {{European Space Agency} and {Swarm PDGS}},\n  title = {SW_GPSx_RO_1B},\n  year = {2013},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-1e13ecd},\n  url = {https://doi.org/10.57780/esa-1e13ecd},\n}"
+            }
         }
     ],
     "description": "The GPSx_RO_1B Products contain the GPS Observation files generated from GPSR data. The product stores the GPS Observation data file in the RINEX 3.00 format generally used for LEO satellites. The description of the format can be found in <a href=\"https://files.igs.org/pub/data/format/rinex300.pdf\">rinex300.pdf</a>, Section 2 and Appendix A.",

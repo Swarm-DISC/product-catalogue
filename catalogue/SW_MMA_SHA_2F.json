@@ -30,13 +30,11 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_MMA_SHA_2F",
-            "identifierType": "URL"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, British Geological Survey, (2014), SW_MMA_SHA_2F, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_MMA_SHA_2F",
-            "bibtex": "@misc{SW_MMA_SHA_2F,\n  author = {European Space Agency and British Geological Survey},\n  title = {SW_MMA_SHA_2F},\n  year = {2014},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_MMA_SHA_2F},\n}"
+            "identifierType": "URL",
+            "citation": {
+                "text": "European Space Agency, British Geological Survey, 2014, \"SW_MMA_SHA_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_MMA_SHA_2F",
+                "bibtex": "@misc{SW_MMA_SHA_2F,\n  author = {{European Space Agency} and {British Geological Survey}},\n  title = {SW_MMA_SHA_2F},\n  year = {2014},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_MMA_SHA_2F},\n}"
+            }
         }
     ],
     "description": "Timeseries of spherical harmonic expansion coefficients of the large-scale magnetospheric field and its Earth-induced counterpart derived in Dedicated Inversion chain. This is a fast-track product which is provided without an independent regular validation",

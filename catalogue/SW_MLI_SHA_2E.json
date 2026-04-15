@@ -33,13 +33,11 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_MLI_SHA_2E",
-            "identifierType": "URL"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, Institut de physique du globe de Paris, (2020), SW_MLI_SHA_2E, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_MLI_SHA_2E",
-            "bibtex": "@misc{SW_MLI_SHA_2E,\n  author = {European Space Agency and Institut de physique du globe de Paris},\n  title = {SW_MLI_SHA_2E},\n  year = {2020},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_MLI_SHA_2E},\n}"
+            "identifierType": "URL",
+            "citation": {
+                "text": "European Space Agency, Institut de physique du globe de Paris, 2020, \"SW_MLI_SHA_2E\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_MLI_SHA_2E",
+                "bibtex": "@misc{SW_MLI_SHA_2E,\n  author = {{European Space Agency} and {Institut de physique du globe de Paris}},\n  title = {SW_MLI_SHA_2E},\n  year = {2020},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_MLI_SHA_2E},\n}"
+            }
         }
     ],
     "description": "Final map of the lithospheric field from the Revised Spherical Cap Harmonic analysis (R-SCHA) Dedicated Lithospheric Inversion, expressed in terms of high degree Spherical Harmonics",

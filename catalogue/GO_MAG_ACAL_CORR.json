@@ -27,13 +27,11 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/GO_MAG_ACAL_CORR",
-            "identifierType": "URL"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, (2022), GO_MAG_ACAL_CORR, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/GO_MAG_ACAL_CORR",
-            "bibtex": "@misc{GO_MAG_ACAL_CORR,\n  author = {European Space Agency and GFZ Helmholtz Centre for Geosciences},\n  title = {GO_MAG_ACAL_CORR},\n  year = {2022},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/GO_MAG_ACAL_CORR},\n}"
+            "identifierType": "URL",
+            "citation": {
+                "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, 2022, \"GO_MAG_ACAL_CORR\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/GO_MAG_ACAL_CORR",
+                "bibtex": "@misc{GO_MAG_ACAL_CORR,\n  author = {{European Space Agency} and {GFZ Helmholtz Centre for Geosciences}},\n  title = {GO_MAG_ACAL_CORR},\n  year = {2022},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/GO_MAG_ACAL_CORR},\n}"
+            }
         }
     ],
     "description": "This product contains calibrated magnetic measurements derived from GOCE platform magnetometers",

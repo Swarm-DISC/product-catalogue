@@ -29,13 +29,11 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/GF_DNSxACC_2_",
-            "identifierType": "URL"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, Delft University of Technology, (2024), GF_DNSxACC_2_, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/GF_DNSxACC_2_",
-            "bibtex": "@misc{GF_DNSxACC_2_,\n  author = {European Space Agency and Delft University of Technology},\n  title = {GF_DNSxACC_2_},\n  year = {2024},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/GF_DNSxACC_2_},\n}"
+            "identifierType": "URL",
+            "citation": {
+                "text": "European Space Agency, Delft University of Technology, 2024, \"GF_DNSxACC_2_\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/GF_DNSxACC_2_",
+                "bibtex": "@misc{GF_DNSxACC_2_,\n  author = {{European Space Agency} and {Delft University of Technology}},\n  title = {GF_DNSxACC_2_},\n  year = {2024},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/GF_DNSxACC_2_},\n}"
+            }
         }
     ],
     "description": "This product contains thermosphere mass density at the GRACE-FO satellite locations",

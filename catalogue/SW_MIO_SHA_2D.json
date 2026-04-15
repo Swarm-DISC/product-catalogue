@@ -31,13 +31,11 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_MIO_SHA_2D",
-            "identifierType": "URL"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, Institut de physique du globe de Paris, (2015), SW_MIO_SHA_2D, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_MIO_SHA_2D",
-            "bibtex": "@misc{SW_MIO_SHA_2D,\n  author = {European Space Agency and Institut de physique du globe de Paris},\n  title = {SW_MIO_SHA_2D},\n  year = {2015},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_MIO_SHA_2D},\n}"
+            "identifierType": "URL",
+            "citation": {
+                "text": "European Space Agency, Institut de physique du globe de Paris, 2015, \"SW_MIO_SHA_2D\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_MIO_SHA_2D",
+                "bibtex": "@misc{SW_MIO_SHA_2D,\n  author = {{European Space Agency} and {Institut de physique du globe de Paris}},\n  title = {SW_MIO_SHA_2D},\n  year = {2015},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_MIO_SHA_2D},\n}"
+            }
         }
     ],
     "description": "Model of non-polar daily geomagnetic variation caused by ionospheric currents, including their variability with season and solar flux, derived in Dedicated Ionospheric Field Inversion chain",

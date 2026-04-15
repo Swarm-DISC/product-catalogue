@@ -32,13 +32,11 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_TECxTMS_2F",
-            "identifierType": "URL"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, (2014), SW_TECxTMS_2F, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_TECxTMS_2F",
-            "bibtex": "@misc{SW_TECxTMS_2F,\n  author = {European Space Agency and GFZ Helmholtz Centre for Geosciences},\n  title = {SW_TECxTMS_2F},\n  year = {2014},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_TECxTMS_2F},\n}"
+            "identifierType": "URL",
+            "citation": {
+                "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, 2014, \"SW_TECxTMS_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_TECxTMS_2F",
+                "bibtex": "@misc{SW_TECxTMS_2F,\n  author = {{European Space Agency} and {GFZ Helmholtz Centre for Geosciences}},\n  title = {SW_TECxTMS_2F},\n  year = {2014},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_TECxTMS_2F},\n}"
+            }
         }
     ],
     "description": "Integrated electron density along the line of sight from Swarm to GNSS satellites",

@@ -36,13 +36,12 @@
         {
             "identifier": "10.57780/esa-f1bc8c2",
             "identifierType": "DOI",
-            "role": "concept"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, Swarm PDGS, (2013), SW_AUXxORBCNT, European Space Agency, https://doi.org/10.57780/esa-f1bc8c2",
-            "bibtex": "@misc{SW_AUXxORBCNT,\n  author = {European Space Agency and Swarm PDGS},\n  title = {SW_AUXxORBCNT},\n  year = {2013},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-f1bc8c2},\n  url = {https://doi.org/10.57780/esa-f1bc8c2},\n}"
+            "role": "concept",
+            "primary": true,
+            "citation": {
+                "text": "European Space Agency, Swarm PDGS, 2013, \"SW_AUXxORBCNT\", European Space Agency, https://doi.org/10.57780/esa-f1bc8c2",
+                "bibtex": "@misc{SW_AUXxORBCNT,\n  author = {{European Space Agency} and {Swarm PDGS}},\n  title = {SW_AUXxORBCNT},\n  year = {2013},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-f1bc8c2},\n  url = {https://doi.org/10.57780/esa-f1bc8c2},\n}"
+            }
         }
     ],
     "description": "The Swarm orbit counter auxiliary data file provides precise Swarm orbit number information. The start of an orbit is defined as the Equator crossing of the ascending node (i.e. the northbound Equator crossing).",

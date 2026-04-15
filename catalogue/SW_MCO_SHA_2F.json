@@ -29,13 +29,11 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_MCO_SHA_2F",
-            "identifierType": "URL"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, (2016), SW_MCO_SHA_2F, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_MCO_SHA_2F",
-            "bibtex": "@misc{SW_MCO_SHA_2F,\n  author = {European Space Agency and GFZ Helmholtz Centre for Geosciences},\n  title = {SW_MCO_SHA_2F},\n  year = {2016},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_MCO_SHA_2F},\n}"
+            "identifierType": "URL",
+            "citation": {
+                "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, 2016, \"SW_MCO_SHA_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_MCO_SHA_2F",
+                "bibtex": "@misc{SW_MCO_SHA_2F,\n  author = {{European Space Agency} and {GFZ Helmholtz Centre for Geosciences}},\n  title = {SW_MCO_SHA_2F},\n  year = {2016},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_MCO_SHA_2F},\n}"
+            }
         }
     ],
     "description": "Spherical harmonic model of the main (core) field and its temporal variation, from the fast-track inversion",

@@ -36,13 +36,12 @@
         {
             "identifier": "10.57780/esa-5966e05",
             "identifierType": "DOI",
-            "role": "concept"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, Swarm PDGS, (2013), SW_MODx_SC_1B, European Space Agency, https://doi.org/10.57780/esa-5966e05",
-            "bibtex": "@misc{SW_MODx_SC_1B,\n  author = {European Space Agency and Swarm PDGS},\n  title = {SW_MODx_SC_1B},\n  year = {2013},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-5966e05},\n  url = {https://doi.org/10.57780/esa-5966e05},\n}"
+            "role": "concept",
+            "primary": true,
+            "citation": {
+                "text": "European Space Agency, Swarm PDGS, 2013, \"SW_MODx_SC_1B\", European Space Agency, https://doi.org/10.57780/esa-5966e05",
+                "bibtex": "@misc{SW_MODx_SC_1B,\n  author = {{European Space Agency} and {Swarm PDGS}},\n  title = {SW_MODx_SC_1B},\n  year = {2013},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-5966e05},\n  url = {https://doi.org/10.57780/esa-5966e05},\n}"
+            }
         }
     ],
     "description": "Position and velocity from the preliminary Medium accuracy Orbit Determination (MOD) expressed with respect to the International Terrestrial Reference Frame (ITRF). The product stores the medium precision orbit information in ASCII format, following the <a href=\"http://www.epncb.oma.be/ftp/data/format/sp3c.txt\">Extended Standard Product 3 Orbit Format (SP3c)</a>\n</pre>",

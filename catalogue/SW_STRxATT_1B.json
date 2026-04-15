@@ -36,13 +36,12 @@
         {
             "identifier": "10.57780/esa-cc563ac",
             "identifierType": "DOI",
-            "role": "concept"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, Swarm PDGS, (2013), SW_STRxATT_1B, European Space Agency, https://doi.org/10.57780/esa-cc563ac",
-            "bibtex": "@misc{SW_STRxATT_1B,\n  author = {European Space Agency and Swarm PDGS},\n  title = {SW_STRxATT_1B},\n  year = {2013},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-cc563ac},\n  url = {https://doi.org/10.57780/esa-cc563ac},\n}"
+            "role": "concept",
+            "primary": true,
+            "citation": {
+                "text": "European Space Agency, Swarm PDGS, 2013, \"SW_STRxATT_1B\", European Space Agency, https://doi.org/10.57780/esa-cc563ac",
+                "bibtex": "@misc{SW_STRxATT_1B,\n  author = {{European Space Agency} and {Swarm PDGS}},\n  title = {SW_STRxATT_1B},\n  year = {2013},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-cc563ac},\n  url = {https://doi.org/10.57780/esa-cc563ac},\n}"
+            }
         }
     ],
     "description": "The STRxATT_1B Product contains attitude information at S/C level based on STR data.",

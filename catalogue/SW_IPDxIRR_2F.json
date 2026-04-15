@@ -32,13 +32,11 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_IPDxIRR_2F",
-            "identifierType": "URL"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, University of Oslo, (2019), SW_IPDxIRR_2F, European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_IPDxIRR_2F",
-            "bibtex": "@misc{SW_IPDxIRR_2F,\n  author = {European Space Agency and University of Oslo},\n  title = {SW_IPDxIRR_2F},\n  year = {2019},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_IPDxIRR_2F},\n}"
+            "identifierType": "URL",
+            "citation": {
+                "text": "European Space Agency, University of Oslo, 2019, \"SW_IPDxIRR_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_IPDxIRR_2F",
+                "bibtex": "@misc{SW_IPDxIRR_2F,\n  author = {{European Space Agency} and {University of Oslo}},\n  title = {SW_IPDxIRR_2F},\n  year = {2019},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_IPDxIRR_2F},\n}"
+            }
         }
     ],
     "description": "Time series of characteristics of the plasma density and plasma irregularities along the orbit from single satellite measurements. Time series of local plasma conditions, including background density and total electron content. Data related to geomagnetic regions in the ionosphere. Indication of severity of plasma irregularities for ground-based users provided. Contains ionospheric plasma characteristics from multiple instruments derived at 1Hz, updated daily with 24-hour timespan.",

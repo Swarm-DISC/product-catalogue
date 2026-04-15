@@ -36,13 +36,12 @@
         {
             "identifier": "10.57780/esa-85a77e4",
             "identifierType": "DOI",
-            "role": "concept"
-        }
-    ],
-    "citations": [
-        {
-            "text": "European Space Agency, Swarm PDGS, (2013), SW_VFMxAUX_1B, European Space Agency, https://doi.org/10.57780/esa-85a77e4",
-            "bibtex": "@misc{SW_VFMxAUX_1B,\n  author = {European Space Agency and Swarm PDGS},\n  title = {SW_VFMxAUX_1B},\n  year = {2013},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-85a77e4},\n  url = {https://doi.org/10.57780/esa-85a77e4},\n}"
+            "role": "concept",
+            "primary": true,
+            "citation": {
+                "text": "European Space Agency, Swarm PDGS, 2013, \"SW_VFMxAUX_1B\", European Space Agency, https://doi.org/10.57780/esa-85a77e4",
+                "bibtex": "@misc{SW_VFMxAUX_1B,\n  author = {{European Space Agency} and {Swarm PDGS}},\n  title = {SW_VFMxAUX_1B},\n  year = {2013},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-85a77e4},\n  url = {https://doi.org/10.57780/esa-85a77e4},\n}"
+            }
         }
     ],
     "description": "The VFMxAUX_1B Product contains detailed information on the S/C magnetic stray fields and the Sun induced stray field at the VFM sensor position. The data are provided at 50 Hz at the time-instants of the VFM measurements; the stray field vectors are provided in the VFM sensor frame.",
