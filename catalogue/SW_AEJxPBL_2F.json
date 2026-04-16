@@ -36,7 +36,8 @@
             "citation": {
                 "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, 2020, \"SW_AEJxPBL_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_AEJxPBL_2F",
                 "bibtex": "@misc{SW_AEJxPBL_2F,\n  author = {{European Space Agency} and {GFZ Helmholtz Centre for Geosciences}},\n  title = {SW_AEJxPBL_2F},\n  year = {2020},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_AEJxPBL_2F},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "Characterization of the auroral electrojets and auroral oval boundaries (by using LC method).",

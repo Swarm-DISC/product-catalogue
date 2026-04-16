@@ -34,7 +34,8 @@
             "citation": {
                 "text": "European Space Agency, Institut de physique du globe de Paris, 2023, \"SW_WHIxEVT_2_\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_WHIxEVT_2_",
                 "bibtex": "@misc{SW_WHIxEVT_2_,\n  author = {{European Space Agency} and {Institut de physique du globe de Paris}},\n  title = {SW_WHIxEVT_2_},\n  year = {2023},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_WHIxEVT_2_},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "The WHIxEVT_2_ Product contains information about the Extremely Low Frequency (ELF) portion of whistlers detected during ASM Burst Mode sessions.",

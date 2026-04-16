@@ -35,7 +35,8 @@
             "citation": {
                 "text": "European Space Agency, Leibniz University Hannover, 2021, \"SW_ACCxCAL_2_\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_ACCxCAL_2_",
                 "bibtex": "@misc{SW_ACCxCAL_2_,\n  author = {{European Space Agency} and {Leibniz University Hannover}},\n  title = {SW_ACCxCAL_2_},\n  year = {2021},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_ACCxCAL_2_},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "Time series of corrected and calibrated acceleration, including all corrections and calibration parameters",

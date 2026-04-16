@@ -33,7 +33,8 @@
             "citation": {
                 "text": "European Space Agency, Delft University of Technology, 2023, \"CH_DNS_ACC_2_\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/CH_DNS_ACC_2_",
                 "bibtex": "@misc{CH_DNS_ACC_2_,\n  author = {{European Space Agency} and {Delft University of Technology}},\n  title = {CH_DNS_ACC_2_},\n  year = {2023},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/CH_DNS_ACC_2_},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "This product contains thermosphere mass density at the CHAMP satellite location.",

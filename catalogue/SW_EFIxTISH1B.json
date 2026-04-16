@@ -36,7 +36,8 @@
             "citation": {
                 "text": "European Space Agency, University of Calgary, 2022, \"SW_EFIxTISH1B\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_EFIxTISH1B",
                 "bibtex": "@misc{SW_EFIxTISH1B,\n  author = {{European Space Agency} and {University of Calgary}},\n  title = {SW_EFIxTISH1B},\n  year = {2022},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_EFIxTISH1B},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "Swarm Electric Field Instrument (EFI) Thermal Ion Imager (TII) raw and corrected imagery and column sum spectra products at high resolution. \nMeasurements are derived by University of Calgary within the \"TII Raw And Corrected Imagery / Spectra\" (TRACIS) project.\nThis product represents an official archive of Level 0 TII full images and derived (Level 1B) gain-corrected images and energy and angle-of-arrival count-rate spectra.\nThe high-resolution (HR) product consists of the Level 0 TII column sum count-rates at a cadence of 2 spectra per second.\n ",

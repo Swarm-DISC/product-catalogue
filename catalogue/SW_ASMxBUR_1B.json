@@ -36,7 +36,8 @@
             "citation": {
                 "text": "European Space Agency, Swarm PDGS, 2020, \"SW_ASMxBUR_1B\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_ASMxBUR_1B",
                 "bibtex": "@misc{SW_ASMxBUR_1B,\n  author = {{European Space Agency} and {Swarm PDGS}},\n  title = {SW_ASMxBUR_1B},\n  year = {2020},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_ASMxBUR_1B},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "The ASMxBUR_1B Product contains magnetic scalar data at 250 Hz rate. The ASM data are processed and provided at ASM instrument time stamp. ",

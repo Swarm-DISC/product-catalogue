@@ -35,7 +35,8 @@
             "citation": {
                 "text": "European Space Agency, Delft University of Technology, 2022, \"GR_DNSxACC_2_\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/GR_DNSxACC_2_",
                 "bibtex": "@misc{GR_DNSxACC_2_,\n  author = {{European Space Agency} and {Delft University of Technology}},\n  title = {GR_DNSxACC_2_},\n  year = {2022},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/GR_DNSxACC_2_},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "This product contains thermosphere mass density at the GRACE satellite locations",

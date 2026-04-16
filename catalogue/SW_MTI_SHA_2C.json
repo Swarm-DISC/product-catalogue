@@ -33,7 +33,8 @@
             "citation": {
                 "text": "European Space Agency, Technical University of Denmark, 2018, \"SW_MTI_SHA_2C\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_MTI_SHA_2C",
                 "bibtex": "@misc{SW_MTI_SHA_2C,\n  author = {{European Space Agency} and {Technical University of Denmark}},\n  title = {SW_MTI_SHA_2C},\n  year = {2018},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_MTI_SHA_2C},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "This product contains the representation of a model of the magnetic field of the Lunar M<sub>2</sub> ocean tides using spherical harmonic coefficients. The model is estimated from Swarm and ground observatory data using the Comprehensive Inversion scheme within the Swarm Level 2 Processing system.",

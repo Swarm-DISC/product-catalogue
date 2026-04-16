@@ -36,7 +36,8 @@
             "citation": {
                 "text": "European Space Agency, Finnish Meteorological Institute, 2020, \"SW_AEJxLPS_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_AEJxLPS_2F",
                 "bibtex": "@misc{SW_AEJxLPS_2F,\n  author = {{European Space Agency} and {Finnish Meteorological Institute}},\n  title = {SW_AEJxLPS_2F},\n  year = {2020},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_AEJxLPS_2F},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "Characterization of the electrojet sheet current density as well as the total horizontal sheet and associated large-scale field-aligned current density along the Swarm orbit ionospheric footprints at auroral latitudes (by using SECS method).",

@@ -34,7 +34,8 @@
             "citation": {
                 "text": "European Space Agency, Leibniz Institute of Atmospheric Physics, 2023, \"SW_IBP_CLI_2_\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_IBP_CLI_2_",
                 "bibtex": "@misc{SW_IBP_CLI_2_,\n  author = {{European Space Agency} and {Leibniz Institute of Atmospheric Physics}},\n  title = {SW_IBP_CLI_2_},\n  year = {2023},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_IBP_CLI_2_},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "Climatological model of ionospheric bubble probability based on electron density and magnetic field observations",

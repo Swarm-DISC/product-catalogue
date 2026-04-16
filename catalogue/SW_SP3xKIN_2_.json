@@ -35,7 +35,8 @@
             "citation": {
                 "text": "European Space Agency, Delft University of Technology, 2015, \"SW_SP3xKIN_2_\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_SP3xKIN_2_",
                 "bibtex": "@misc{SW_SP3xKIN_2_,\n  author = {{European Space Agency} and {Delft University of Technology}},\n  title = {SW_SP3xKIN_2_},\n  year = {2015},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_SP3xKIN_2_},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "The SP3xKIN_2_ product contains the time series of kinematic position of the center of mass of each satellite with respect to the International Terrestrial Reference Frame (ITRF) Earth-fixed frame.\n\nQuality report will be provided as separate Level 2 product (SP3xVAL).",

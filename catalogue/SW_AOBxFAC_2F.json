@@ -36,7 +36,8 @@
             "citation": {
                 "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, 2020, \"SW_AOBxFAC_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_AOBxFAC_2F",
                 "bibtex": "@misc{SW_AOBxFAC_2F,\n  author = {{European Space Agency} and {GFZ Helmholtz Centre for Geosciences}},\n  title = {SW_AOBxFAC_2F},\n  year = {2020},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_AOBxFAC_2F},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "Auroral oval boundaries, associated with auroral precipitation, estimated from the presence of small-scale (<150 km) field-aligned currents.",

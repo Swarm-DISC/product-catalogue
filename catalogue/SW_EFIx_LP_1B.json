@@ -35,7 +35,8 @@
             "citation": {
                 "text": "European Space Agency, Swarm PDGS, 2013, \"SW_EFIx_LP_1B\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_LP_1B",
                 "bibtex": "@misc{SW_EFIx_LP_1B,\n  author = {{European Space Agency} and {Swarm PDGS}},\n  title = {SW_EFIx_LP_1B},\n  year = {2013},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_LP_1B},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "The EFIx_LP_1B Product contains plasma data from the Langmuir Probe (LP) of the Electrical Field Instrument (EFI). The plasma product encompasses the plasma density and temperature. Data is provided at 2 Hz rate. The time instant are determined by the EFI instruments. No interpolation of the EFI data is performed, neither to shift the measurements in time nor to fill any gaps.\n\n",

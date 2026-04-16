@@ -36,7 +36,8 @@
             "citation": {
                 "text": "European Space Agency, Delft University of Technology, 2017, \"SW_ACCxPOD_2_\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_ACCxPOD_2_",
                 "bibtex": "@misc{SW_ACCxPOD_2_,\n  author = {{European Space Agency} and {Delft University of Technology}},\n  title = {SW_ACCxPOD_2_},\n  year = {2017},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_ACCxPOD_2_},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "Time series of non-gravitational and aerodynamic accelerations obtained by Precise Orbit Determination (POD).",

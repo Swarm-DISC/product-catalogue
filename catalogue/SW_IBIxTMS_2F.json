@@ -36,7 +36,8 @@
             "citation": {
                 "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, 2015, \"SW_IBIxTMS_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_IBIxTMS_2F",
                 "bibtex": "@misc{SW_IBIxTMS_2F,\n  author = {{European Space Agency} and {GFZ Helmholtz Centre for Geosciences}},\n  title = {SW_IBIxTMS_2F},\n  year = {2015},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_IBIxTMS_2F},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "By combining electron density and magnetic field observations the IBI product gives information on bubble climatology and on disturbance level of magnetic field data.",

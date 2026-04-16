@@ -34,7 +34,8 @@
             "citation": {
                 "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, 2022, \"GF_TECxTMS_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/GF_TECxTMS_2F",
                 "bibtex": "@misc{GF_TECxTMS_2F,\n  author = {{European Space Agency} and {GFZ Helmholtz Centre for Geosciences}},\n  title = {GF_TECxTMS_2F},\n  year = {2022},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/GF_TECxTMS_2F},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "Integrated electron density along the line of sight from GRACE-FO 1 and 2 to GNSS satellites",

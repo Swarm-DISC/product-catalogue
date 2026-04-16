@@ -36,7 +36,8 @@
             "citation": {
                 "text": "European Space Agency, University of Calgary, 2021, \"SW_EFIxTIE_2_\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_EFIxTIE_2_",
                 "bibtex": "@misc{SW_EFIxTIE_2_,\n  author = {{European Space Agency} and {University of Calgary}},\n  title = {SW_EFIxTIE_2_},\n  year = {2021},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_EFIxTIE_2_},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "This product contains estimated ion temperatures along the Swarm satellite orbits",

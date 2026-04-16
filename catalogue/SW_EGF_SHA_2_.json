@@ -33,7 +33,8 @@
             "citation": {
                 "text": "European Space Agency, Delft University of Technology, 2019, \"SW_EGF_SHA_2_\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_EGF_SHA_2_",
                 "bibtex": "@misc{SW_EGF_SHA_2_,\n  author = {{European Space Agency} and {Delft University of Technology}},\n  title = {SW_EGF_SHA_2_},\n  year = {2019},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_EGF_SHA_2_},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "Monthly average of Earth's gravity field, i.e. with an implicit epoch located at the middle of the calendar month",

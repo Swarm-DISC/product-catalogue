@@ -33,7 +33,8 @@
             "citation": {
                 "text": "European Space Agency, Institut de physique du globe de Paris, 2022, \"SW_MCO_SHA_2Y\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_MCO_SHA_2Y",
                 "bibtex": "@misc{SW_MCO_SHA_2Y,\n  author = {{European Space Agency} and {Institut de physique du globe de Paris}},\n  title = {SW_MCO_SHA_2Y},\n  year = {2022},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_MCO_SHA_2Y},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "Series of core field models provided in terms of Gauss coefficients + covariance matrices + standard deviations of Gauss coefficients.\n\nRelated to SW_CFW_SHA_2Y",

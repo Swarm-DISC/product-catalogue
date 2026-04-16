@@ -36,7 +36,8 @@
             "citation": {
                 "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, 2014, \"SW_FACxTMS_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_FACxTMS_2F",
                 "bibtex": "@misc{SW_FACxTMS_2F,\n  author = {{European Space Agency} and {GFZ Helmholtz Centre for Geosciences}},\n  title = {SW_FACxTMS_2F},\n  year = {2014},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_FACxTMS_2F},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "Time series of field-aligned and radial current densities along the orbit from single satellite measurements. Field-aligned current (FAC) density is derived by the multiplication of the radial current (IRC) density with the inclination angle of the geomagnetic field. The field-aligned current density can only be calculated at latitudes, where the magnetic field is well inclined, i.e. |I| > 30°. Near the magnetic equator for magnetic inclination angles |I| < 30° FAC values are set to NaN. The radial current density can be provided along the whole orbit. Scale size >7.5 km.",

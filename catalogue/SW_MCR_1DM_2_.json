@@ -33,7 +33,8 @@
             "citation": {
                 "text": "European Space Agency, ETH Zurich, 2015, \"SW_MCR_1DM_2_\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_MCR_1DM_2_",
                 "bibtex": "@misc{SW_MCR_1DM_2_,\n  author = {{European Space Agency} and {ETH Zurich}},\n  title = {SW_MCR_1DM_2_},\n  year = {2015},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_MCR_1DM_2_},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "Model of electrical conductivity of the mantle for its 1-D structure, meaning that the conductivity is assumed to only vary with depth",

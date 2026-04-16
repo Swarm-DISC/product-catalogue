@@ -36,7 +36,8 @@
             "citation": {
                 "text": "European Space Agency, Finnish Meteorological Institute, 2020, \"SW_AEJxPBS_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_AEJxPBS_2F",
                 "bibtex": "@misc{SW_AEJxPBS_2F,\n  author = {{European Space Agency} and {Finnish Meteorological Institute}},\n  title = {SW_AEJxPBS_2F},\n  year = {2020},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_AEJxPBS_2F},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "Characterization of the auroral electrojets and auroral oval boundaries (by using SECS method).",

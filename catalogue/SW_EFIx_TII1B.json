@@ -36,7 +36,8 @@
             "citation": {
                 "text": "European Space Agency, University of Calgary, 2014, \"SW_EFIx_TII1B\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_TII1B",
                 "bibtex": "@misc{SW_EFIx_TII1B,\n  author = {{European Space Agency} and {University of Calgary}},\n  title = {SW_EFIx_TII1B},\n  year = {2014},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_TII1B},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "Swarm Electric Field Instrument (EFI) Thermal Ion Imager (TII) parameter for ionospheric ions bulk velocity, ion temperature, and electric field measurements obtained from a development, or \"sandbox\", processor from University of Calgary.",

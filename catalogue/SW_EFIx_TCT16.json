@@ -36,7 +36,8 @@
             "citation": {
                 "text": "European Space Agency, University of Calgary, 2017, \"SW_EFIx_TCT16\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_TCT16",
                 "bibtex": "@misc{SW_EFIx_TCT16,\n  author = {{European Space Agency} and {University of Calgary}},\n  title = {SW_EFIx_TCT16},\n  year = {2017},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_TCT16},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "Swarm Electric Field Instrument (EFI) Thermal Ion Imager (TII) dataset at 16 Hz cadence containing cross-track ion measurements: the TII L1B data processing is simplified by deriving ion flow velocity components perpendicular to the satellite velocity vector. The data also include the electric field, magnetic field in the same coordinate frame.\n",

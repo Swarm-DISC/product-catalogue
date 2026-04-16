@@ -36,7 +36,8 @@
             "citation": {
                 "text": "European Space Agency, Swedish Institute of Space Physics, 2017, \"SW_EFIx_LP_HM\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_LP_HM",
                 "bibtex": "@misc{SW_EFIx_LP_HM,\n  author = {{European Space Agency} and {Swedish Institute of Space Physics}},\n  title = {SW_EFIx_LP_HM},\n  year = {2017},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_LP_HM},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "Extended Swarm Electric field instrument (EFI) data from the Langmuir probes (LP) in the so-called “harmonic submode”, with a 2 Hz cadence. The dataset contains the electron temperature and spacecraft potential measured separately by the two probes.\n",

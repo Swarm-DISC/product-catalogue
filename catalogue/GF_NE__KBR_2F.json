@@ -33,7 +33,8 @@
             "citation": {
                 "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, 2022, \"GF_NE__KBR_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/GF_NE__KBR_2F",
                 "bibtex": "@misc{GF_NE__KBR_2F,\n  author = {{European Space Agency} and {GFZ Helmholtz Centre for Geosciences}},\n  title = {GF_NE__KBR_2F},\n  year = {2022},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/GF_NE__KBR_2F},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "This product contains the time series of the averaged electron density (Ne) between GRACE-FO 1 and 2 satellites",

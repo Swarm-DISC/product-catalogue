@@ -32,7 +32,8 @@
             "citation": {
                 "text": "European Space Agency, Swarm PDGS, 2016, \"SW_ACCx_AE_2_\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_ACCx_AE_2_",
                 "bibtex": "@misc{SW_ACCx_AE_2_,\n  author = {{European Space Agency} and {Swarm PDGS}},\n  title = {SW_ACCx_AE_2_},\n  year = {2016},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_ACCx_AE_2_},\n}"
-            }
+            },
+            "primary": true
         }
     ],
     "description": "Time series of calibrated accelerometer data, pre-processed to represent external non-gravitational forces and aerodynamic accelerations",
