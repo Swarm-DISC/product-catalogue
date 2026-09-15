@@ -29,12 +29,17 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_MCO_SHA_2C",
-            "identifierType": "URL",
+            "identifierType": "URL"
+        },
+        {
+            "identifier": "10.57780/esa-2e59315",
+            "identifierType": "DOI",
+            "role": "concept",
+            "primary": true,
             "citation": {
-                "text": "European Space Agency, Technical University of Denmark, 2015, \"SW_MCO_SHA_2C\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_MCO_SHA_2C",
-                "bibtex": "@misc{SW_MCO_SHA_2C,\n  author = {{European Space Agency} and {Technical University of Denmark}},\n  title = {SW_MCO_SHA_2C},\n  year = {2015},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_MCO_SHA_2C},\n}"
-            },
-            "primary": true
+                "text": "European Space Agency, Technical University of Denmark, 2015, \"SW_MCO_SHA_2C\", European Space Agency, https://doi.org/10.57780/esa-2e59315",
+                "bibtex": "@misc{SW_MCO_SHA_2C,\n  author = {{European Space Agency} and {Technical University of Denmark}},\n  title = {SW_MCO_SHA_2C},\n  year = {2015},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-2e59315},\n  url = {https://doi.org/10.57780/esa-2e59315},\n}"
+            }
         }
     ],
     "description": "Spherical harmonic model of the main (core) field and its temporal variation derived in Comprehensive Inversion chain",

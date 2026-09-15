@@ -32,12 +32,17 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_AEJxPBS_2F",
-            "identifierType": "URL",
+            "identifierType": "URL"
+        },
+        {
+            "identifier": "10.57780/esa-4d79355",
+            "identifierType": "DOI",
+            "role": "concept",
+            "primary": true,
             "citation": {
-                "text": "European Space Agency, Finnish Meteorological Institute, 2020, \"SW_AEJxPBS_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_AEJxPBS_2F",
-                "bibtex": "@misc{SW_AEJxPBS_2F,\n  author = {{European Space Agency} and {Finnish Meteorological Institute}},\n  title = {SW_AEJxPBS_2F},\n  year = {2020},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_AEJxPBS_2F},\n}"
-            },
-            "primary": true
+                "text": "European Space Agency, Finnish Meteorological Institute, 2020, \"SW_AEJxPBS_2F\", European Space Agency, https://doi.org/10.57780/esa-4d79355",
+                "bibtex": "@misc{SW_AEJxPBS_2F,\n  author = {{European Space Agency} and {Finnish Meteorological Institute}},\n  title = {SW_AEJxPBS_2F},\n  year = {2020},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-4d79355},\n  url = {https://doi.org/10.57780/esa-4d79355},\n}"
+            }
         }
     ],
     "description": "Characterization of the auroral electrojets and auroral oval boundaries (by using SECS method).",

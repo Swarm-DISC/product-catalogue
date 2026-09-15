@@ -31,12 +31,17 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_MIO_SHA_2D",
-            "identifierType": "URL",
+            "identifierType": "URL"
+        },
+        {
+            "identifier": "10.57780/esa-6079355",
+            "identifierType": "DOI",
+            "role": "concept",
+            "primary": true,
             "citation": {
-                "text": "European Space Agency, Institut de physique du globe de Paris, 2015, \"SW_MIO_SHA_2D\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_MIO_SHA_2D",
-                "bibtex": "@misc{SW_MIO_SHA_2D,\n  author = {{European Space Agency} and {Institut de physique du globe de Paris}},\n  title = {SW_MIO_SHA_2D},\n  year = {2015},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_MIO_SHA_2D},\n}"
-            },
-            "primary": true
+                "text": "European Space Agency, Institut de physique du globe de Paris, 2015, \"SW_MIO_SHA_2D\", European Space Agency, https://doi.org/10.57780/esa-6079355",
+                "bibtex": "@misc{SW_MIO_SHA_2D,\n  author = {{European Space Agency} and {Institut de physique du globe de Paris}},\n  title = {SW_MIO_SHA_2D},\n  year = {2015},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-6079355},\n  url = {https://doi.org/10.57780/esa-6079355},\n}"
+            }
         }
     ],
     "description": "Model of non-polar daily geomagnetic variation caused by ionospheric currents, including their variability with season and solar flux, derived in Dedicated Ionospheric Field Inversion chain",

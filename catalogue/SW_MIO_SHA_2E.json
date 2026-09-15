@@ -29,12 +29,17 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_MIO_SHA_2E",
-            "identifierType": "URL",
+            "identifierType": "URL"
+        },
+        {
+            "identifier": "10.57780/esa-b969b15",
+            "identifierType": "DOI",
+            "role": "concept",
+            "primary": true,
             "citation": {
-                "text": "European Space Agency, University of Bergen, 2018, \"SW_MIO_SHA_2E\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_MIO_SHA_2E",
-                "bibtex": "@misc{SW_MIO_SHA_2E,\n  author = {{European Space Agency} and {University of Bergen}},\n  title = {SW_MIO_SHA_2E},\n  year = {2018},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_MIO_SHA_2E},\n}"
-            },
-            "primary": true
+                "text": "European Space Agency, University of Bergen, 2018, \"SW_MIO_SHA_2E\", European Space Agency, https://doi.org/10.57780/esa-b969b15",
+                "bibtex": "@misc{SW_MIO_SHA_2E,\n  author = {{European Space Agency} and {University of Bergen}},\n  title = {SW_MIO_SHA_2E},\n  year = {2018},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-b969b15},\n  url = {https://doi.org/10.57780/esa-b969b15},\n}"
+            }
         }
     ],
     "description": "Model of polar daily geomagnetic variation caused by ionospheric currents (AMPS model)",

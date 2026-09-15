@@ -18,7 +18,7 @@
             "ror": "https://ror.org/03wd9za21"
         },
         {
-            "name": "Institute of Space Science, Romania",
+            "name": "Romanian Institute of Space Science",
             "ror": "https://ror.org/054a6wv56"
         }
     ],
@@ -32,8 +32,8 @@
             "identifierType": "URL",
             "primary": true,
             "citation": {
-                "text": "European Space Agency, Institute of Space Science, Romania, 2025, \"SW_FAC_SVD_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_FAC_SVD_2F",
-                "bibtex": "@misc{SW_FAC_SVD_2F,\n  author = {{European Space Agency} and {Institute of Space Science, Romania}},\n  title = {SW_FAC_SVD_2F},\n  year = {2025},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_FAC_SVD_2F},\n}"
+                "text": "European Space Agency, Romanian Institute of Space Science, 2025, \"SW_FAC_SVD_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_FAC_SVD_2F",
+                "bibtex": "@misc{SW_FAC_SVD_2F,\n  author = {{European Space Agency} and {Romanian Institute of Space Science}},\n  title = {SW_FAC_SVD_2F},\n  year = {2025},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_FAC_SVD_2F},\n}"
             }
         }
     ],

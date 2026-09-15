@@ -32,12 +32,17 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_EFIxTISL1B",
-            "identifierType": "URL",
+            "identifierType": "URL"
+        },
+        {
+            "identifier": "10.57780/esa-6359315",
+            "identifierType": "DOI",
+            "role": "concept",
+            "primary": true,
             "citation": {
-                "text": "European Space Agency, University of Calgary, 2022, \"SW_EFIxTISL1B\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_EFIxTISL1B",
-                "bibtex": "@misc{SW_EFIxTISL1B,\n  author = {{European Space Agency} and {University of Calgary}},\n  title = {SW_EFIxTISL1B},\n  year = {2022},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_EFIxTISL1B},\n}"
-            },
-            "primary": true
+                "text": "European Space Agency, University of Calgary, 2022, \"SW_EFIxTISL1B\", European Space Agency, https://doi.org/10.57780/esa-6359315",
+                "bibtex": "@misc{SW_EFIxTISL1B,\n  author = {{European Space Agency} and {University of Calgary}},\n  title = {SW_EFIxTISL1B},\n  year = {2022},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-6359315},\n  url = {https://doi.org/10.57780/esa-6359315},\n}"
+            }
         }
     ],
     "description": "Swarm Electric Field Instrument (EFI) Thermal Ion Imager (TII) raw and corrected imagery and column sum spectra products at ligh resolution. \nMeasurements are derived by University of Calgary within the \"TII Raw And Corrected Imagery / Spectra\" (TRACIS) project.\nThis product represents an official archive of Level 0 TII full images and derived (Level 1B) gain-corrected images and energy and angle-of-arrival count-rate spectra.\nThe low-resolution (LR) product consists of TII full images and derived products at the variable TII full image cadence, which varies from a few seconds to several minutes according to the operation plan for each satellite.\nImage quality is characterized with respect to various TII imaging anomalies.\n ",

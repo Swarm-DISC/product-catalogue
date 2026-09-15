@@ -32,12 +32,17 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_AOBxFAC_2F",
-            "identifierType": "URL",
+            "identifierType": "URL"
+        },
+        {
+            "identifier": "10.57780/esa-ed79355",
+            "identifierType": "DOI",
+            "role": "concept",
+            "primary": true,
             "citation": {
-                "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, 2020, \"SW_AOBxFAC_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_AOBxFAC_2F",
-                "bibtex": "@misc{SW_AOBxFAC_2F,\n  author = {{European Space Agency} and {GFZ Helmholtz Centre for Geosciences}},\n  title = {SW_AOBxFAC_2F},\n  year = {2020},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_AOBxFAC_2F},\n}"
-            },
-            "primary": true
+                "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, 2020, \"SW_AOBxFAC_2F\", European Space Agency, https://doi.org/10.57780/esa-ed79355",
+                "bibtex": "@misc{SW_AOBxFAC_2F,\n  author = {{European Space Agency} and {GFZ Helmholtz Centre for Geosciences}},\n  title = {SW_AOBxFAC_2F},\n  year = {2020},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-ed79355},\n  url = {https://doi.org/10.57780/esa-ed79355},\n}"
+            }
         }
     ],
     "description": "Auroral oval boundaries, associated with auroral precipitation, estimated from the presence of small-scale (<150 km) field-aligned currents.",

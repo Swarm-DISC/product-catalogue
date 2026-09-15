@@ -29,12 +29,17 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/GRACE_x_MAG",
-            "identifierType": "URL",
+            "identifierType": "URL"
+        },
+        {
+            "identifier": "10.57780/esa-2c59bd1",
+            "identifierType": "DOI",
+            "role": "concept",
+            "primary": true,
             "citation": {
-                "text": "European Space Agency, Technical University of Denmark, 2022, \"GRACE_x_MAG\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/GRACE_x_MAG",
-                "bibtex": "@misc{GRACE_x_MAG,\n  author = {{European Space Agency} and {Technical University of Denmark}},\n  title = {GRACE_x_MAG},\n  year = {2022},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/GRACE_x_MAG},\n}"
-            },
-            "primary": true
+                "text": "European Space Agency, Technical University of Denmark, 2022, \"GRACE_x_MAG\", European Space Agency, https://doi.org/10.57780/esa-2c59bd1",
+                "bibtex": "@misc{GRACE_x_MAG,\n  author = {{European Space Agency} and {Technical University of Denmark}},\n  title = {GRACE_x_MAG},\n  year = {2022},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-2c59bd1},\n  url = {https://doi.org/10.57780/esa-2c59bd1},\n}"
+            }
         }
     ],
     "description": "This product contains calibrated magnetic measurements derived from GRACE platform magnetometers",

@@ -32,12 +32,17 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_TECxTMS_2F",
-            "identifierType": "URL",
+            "identifierType": "URL"
+        },
+        {
+            "identifier": "10.57780/esa-b579355",
+            "identifierType": "DOI",
+            "role": "concept",
+            "primary": true,
             "citation": {
-                "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, 2014, \"SW_TECxTMS_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_TECxTMS_2F",
-                "bibtex": "@misc{SW_TECxTMS_2F,\n  author = {{European Space Agency} and {GFZ Helmholtz Centre for Geosciences}},\n  title = {SW_TECxTMS_2F},\n  year = {2014},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_TECxTMS_2F},\n}"
-            },
-            "primary": true
+                "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, 2014, \"SW_TECxTMS_2F\", European Space Agency, https://doi.org/10.57780/esa-b579355",
+                "bibtex": "@misc{SW_TECxTMS_2F,\n  author = {{European Space Agency} and {GFZ Helmholtz Centre for Geosciences}},\n  title = {SW_TECxTMS_2F},\n  year = {2014},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-b579355},\n  url = {https://doi.org/10.57780/esa-b579355},\n}"
+            }
         }
     ],
     "description": "Integrated electron density along the line of sight from Swarm to GNSS satellites",

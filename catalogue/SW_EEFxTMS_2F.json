@@ -36,12 +36,17 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_EEFxTMS_2F",
-            "identifierType": "URL",
+            "identifierType": "URL"
+        },
+        {
+            "identifier": "10.57780/esa-7d59fd1",
+            "identifierType": "DOI",
+            "role": "concept",
+            "primary": true,
             "citation": {
-                "text": "European Space Agency, University of Colorado Boulder, Technical University of Denmark, 2020, \"SW_EEFxTMS_2F\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_EEFxTMS_2F",
-                "bibtex": "@misc{SW_EEFxTMS_2F,\n  author = {{European Space Agency} and {University of Colorado Boulder} and {Technical University of Denmark}},\n  title = {SW_EEFxTMS_2F},\n  year = {2020},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_EEFxTMS_2F},\n}"
-            },
-            "primary": true
+                "text": "European Space Agency, University of Colorado Boulder, Technical University of Denmark, 2020, \"SW_EEFxTMS_2F\", European Space Agency, https://doi.org/10.57780/esa-7d59fd1",
+                "bibtex": "@misc{SW_EEFxTMS_2F,\n  author = {{European Space Agency} and {University of Colorado Boulder} and {Technical University of Denmark}},\n  title = {SW_EEFxTMS_2F},\n  year = {2020},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-7d59fd1},\n  url = {https://doi.org/10.57780/esa-7d59fd1},\n}"
+            }
         }
     ],
     "description": "Estimate of eastward equatorial electric field component, by using magnetic measurements of the equatorial electrojet (EEJ) current as the satellites fly overhead. Since the magnetic signal of the EEJ current is directly measured by the satellite, this product also provides an estimate of the EEJ current strength.",

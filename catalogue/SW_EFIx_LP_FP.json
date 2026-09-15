@@ -32,12 +32,17 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_LP_FP",
-            "identifierType": "URL",
+            "identifierType": "URL"
+        },
+        {
+            "identifier": "10.57780/esa-b859bd1",
+            "identifierType": "DOI",
+            "role": "concept",
+            "primary": true,
             "citation": {
-                "text": "European Space Agency, Swedish Institute of Space Physics, 2017, \"SW_EFIx_LP_FP\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_LP_FP",
-                "bibtex": "@misc{SW_EFIx_LP_FP,\n  author = {{European Space Agency} and {Swedish Institute of Space Physics}},\n  title = {SW_EFIx_LP_FP},\n  year = {2017},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/SW_EFIx_LP_FP},\n}"
-            },
-            "primary": true
+                "text": "European Space Agency, Swedish Institute of Space Physics, 2017, \"SW_EFIx_LP_FP\", European Space Agency, https://doi.org/10.57780/esa-b859bd1",
+                "bibtex": "@misc{SW_EFIx_LP_FP,\n  author = {{European Space Agency} and {Swedish Institute of Space Physics}},\n  title = {SW_EFIx_LP_FP},\n  year = {2017},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-b859bd1},\n  url = {https://doi.org/10.57780/esa-b859bd1},\n}"
+            }
         }
     ],
     "description": "The EFIx_LP_FP Product contains extended Swarm Electrical Field Instrument (EFI) plasma data derived from the faceplate (FP) current at 16 Hz.\n\nThey include:\n\n - estimates of the ionospheric electron density from the faceplate current at 16 Hz resolution;\n - the actual 16 Hz faceplate current measurements;\n - geodetic coordinates of the satellite positions interpolated to the times of the current measurements.\n\n",
