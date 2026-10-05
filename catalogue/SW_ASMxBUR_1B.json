@@ -19,8 +19,8 @@
             "ror": "https://ror.org/03wd9za21"
         },
         {
-            "name": "Swarm PDGS",
-            "ror": ""
+            "name": "Institut de physique du globe de Paris",
+            "ror": "https://ror.org/004gzqz66"
         }
     ],
     "creation_year": 2020,
@@ -40,8 +40,8 @@
             "role": "concept",
             "primary": true,
             "citation": {
-                "text": "European Space Agency, Swarm PDGS, 2020, \"SW_ASMxBUR_1B\", European Space Agency, https://doi.org/10.57780/esa-4369b15",
-                "bibtex": "@misc{SW_ASMxBUR_1B,\n  author = {{European Space Agency} and {Swarm PDGS}},\n  title = {SW_ASMxBUR_1B},\n  year = {2020},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-4369b15},\n  url = {https://doi.org/10.57780/esa-4369b15},\n}"
+                "text": "European Space Agency, Institut de physique du globe de Paris, 2020, \"SW_ASMxBUR_1B\", European Space Agency, https://doi.org/10.57780/esa-4369b15",
+                "bibtex": "@misc{SW_ASMxBUR_1B,\n  author = {{European Space Agency} and {Institut de physique du globe de Paris}},\n  title = {SW_ASMxBUR_1B},\n  year = {2020},\n  publisher = {European Space Agency},\n  doi = {10.57780/esa-4369b15},\n  url = {https://doi.org/10.57780/esa-4369b15},\n}"
             }
         }
     ],
