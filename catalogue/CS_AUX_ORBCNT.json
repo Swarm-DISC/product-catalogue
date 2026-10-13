@@ -1,0 +1,44 @@
+{
+    "product_id": "CS_AUX_ORBCNT",
+    "definition": "CryoSat-2 orbit counter: orbit number and orbit start time for each orbit",
+    "applicable_missions": [
+        "CryoSat-2"
+    ],
+    "applicable_spacecraft": [
+        "CryoSat-2"
+    ],
+    "thematic_areas": [
+        "Orbit information"
+    ],
+    "authors": [
+        {
+            "name": "European Space Agency",
+            "ror": "https://ror.org/03wd9za21"
+        },
+        {
+            "name": "Technical University of Denmark",
+            "ror": "https://ror.org/04qtj9h94"
+        }
+    ],
+    "creation_year": 2024,
+    "product_types": [
+        "CS_OPER_AUX_ORBCNT"
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/CS_AUX_ORBCNT",
+            "identifierType": "URL"
+        }
+    ],
+    "description": "<p>The CS_OPER_AUX_ORBCNT auxiliary file gives orbit number information for CryoSat-2. It is a plain-text table with one row per orbit. Each row holds the orbit number, the orbit start time (as MJD2000 and as a UTC date and time), the longitude phi_AN, and a Source flag.</p>\n<p>Each file on the Swarm dissemination server covers the mission from 2010-04-08 onwards. Orbit 1 starts on 2010-04-08 at 15:02:26.042 UTC. New files carry a month-end stop date, and the latest one listed runs to 2026-09-30.</p>",
+    "link_files_http": "https://swarm-diss.eo.esa.int/#swarm/Multimission/CryoSat-2/CS_ORBCNT",
+    "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Multimission/CryoSat-2/CS_ORBCNT",
+    "link_vires_gui": "",
+    "link_notebook": "",
+    "link_hapi": "",
+    "variables_table": "Variable,Units,Description,Dim,Type\norbit,,,,\nMJD2000,,,,\ndate,,,,\nUT,,,,\nphi_AN,,,,\nSource,,,,",
+    "related_resources": "",
+    "details": "<table border=\"1\">\n\t<caption>Columns of CS_OPER_AUX_ORBCNT (header line of the file)</caption>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Column</th>\n\t\t\t<th>Example (orbit 1)</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr><td>orbit</td><td>1</td></tr>\n\t\t<tr><td>MJD2000</td><td>3750.62669030111</td></tr>\n\t\t<tr><td>date</td><td>2010-04-08</td></tr>\n\t\t<tr><td>UT</td><td>15:02:26.042</td></tr>\n\t\t<tr><td>phi_AN</td><td>-135.539</td></tr>\n\t\t<tr><td>Source</td><td>0</td></tr>\n\t</tbody>\n</table>",
+    "changelog": "",
+    "fast_processing": false
+}

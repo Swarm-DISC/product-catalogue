@@ -1,0 +1,44 @@
+{
+    "product_id": "GO_ORBCNT",
+    "definition": "GOCE orbit counter: orbit numbers and ascending-node crossing times, made from TLEs",
+    "applicable_missions": [
+        "GOCE"
+    ],
+    "applicable_spacecraft": [
+        "GOCE"
+    ],
+    "thematic_areas": [
+        "Orbit information"
+    ],
+    "authors": [
+        {
+            "name": "European Space Agency",
+            "ror": "https://ror.org/03wd9za21"
+        },
+        {
+            "name": "GFZ Helmholtz Centre for Geosciences",
+            "ror": "https://ror.org/04z8jg394"
+        }
+    ],
+    "creation_year": 2023,
+    "product_types": [
+        "GO_ORBCNT"
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/GO_ORBCNT",
+            "identifierType": "URL"
+        }
+    ],
+    "description": "<p>The GO_ORBCNT product is a preliminary orbit counter for the GOCE satellite, made from Two-Line Elements (TLEs). It covers the whole GOCE mission, from 2009-03-17 to 2013-11-09, in a single NASA CDF file. Following the Swarm orbit counter convention, an orbit starts at the ascending-node Equator crossing. The file gives a quick overview of altitude and magnetic local time and can be used for conjunction analysis with Swarm and other missions. It goes with the GOCE platform magnetometer data (GO_MAG_ACAL_CORR).</p>\n<p>File naming: GO_ORBCNT_&lt;start yyyymmddThhmmss&gt;_&lt;end yyyymmddThhmmss&gt;_&lt;version&gt;.cdf, e.g. GO_ORBCNT_20090317T231001_20131109T234516_0101.cdf.</p>",
+    "link_files_http": "https://swarm-diss.eo.esa.int/#swarm/Multimission/GOCE/ORBCNT",
+    "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Multimission/GOCE/ORBCNT",
+    "link_vires_gui": "",
+    "link_notebook": "",
+    "link_hapi": "",
+    "variables_table": "Variable,Units,Description,Dim,Type\nTimestamp,-,Time of the ascending-node Equator crossing (start of the orbit) (UTC),1,CDF_EPOCH\nLatitude,deg,Geocentric latitude at the ascending-node crossing,1,CDF_DOUBLE\nLongitude,deg,Geocentric longitude at the ascending-node crossing,1,CDF_DOUBLE\nRadius,m,Geocentric radius at the ascending-node crossing,1,CDF_DOUBLE\nOrbitNo,-,Orbit number (counted from 1 at mission start),1,CDF_DOUBLE\nMLT,h,Magnetic local time at the ascending-node crossing,1,CDF_DOUBLE",
+    "related_resources": "<ul>\n<li><a href=\"https://isdc-data.gfz.de/platmag/MAGNETIC_FIELD/GOCE/\">GFZ ISDC: GOCE ORBCNT files and README</a></li>\n<li>Michaelis, Ingo; Korte, Monika (2022): GOCE calibrated and characterised magnetometer data, V. 0205. GFZ Data Services. <a href=\"https://doi.org/10.5880/GFZ.2.3.2022.001\">https://doi.org/10.5880/GFZ.2.3.2022.001</a></li>\n</ul>",
+    "details": "",
+    "changelog": "<ul>\n<li>Version 0101 (GFZ, 2022): first release, whole mission 2009-03-17 to 2013-11-09.</li>\n<li>2023-05-29: published on the Swarm Dissemination Server under /Multimission/GOCE/ORBCNT.</li>\n</ul>",
+    "fast_processing": false
+}

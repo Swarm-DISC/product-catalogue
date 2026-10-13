@@ -1,0 +1,46 @@
+{
+    "product_id": "GFx_ORBCNT",
+    "definition": "Orbit counter for the GRACE-FO satellites (orbit number, position and magnetic local time)",
+    "applicable_missions": [
+        "GRACE-FO"
+    ],
+    "applicable_spacecraft": [
+        "GRACE-FO-1",
+        "GRACE-FO-2"
+    ],
+    "thematic_areas": [
+        "Orbit information"
+    ],
+    "authors": [
+        {
+            "name": "European Space Agency",
+            "ror": "https://ror.org/03wd9za21"
+        },
+        {
+            "name": "GFZ Helmholtz Centre for Geosciences",
+            "ror": "https://ror.org/04z8jg394"
+        }
+    ],
+    "creation_year": 2023,
+    "product_types": [
+        "GF1_ORBCNT",
+        "GF2_ORBCNT"
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/GFx_ORBCNT",
+            "identifierType": "URL"
+        }
+    ],
+    "description": "<p>Orbit counter product for the GRACE-FO satellites, provided in CDF format on the Swarm Dissemination Server in the folders /Multimission/GRACE-FO/ORBCNT/Sat_1 and /Multimission/GRACE-FO/ORBCNT/Sat_2. The ORBCNT files give a quick overview of altitudes and magnetic local time and can be used for conjunction analysis.</p>",
+    "link_files_http": "https://swarm-diss.eo.esa.int/#Multimission/GRACE-FO/ORBCNT",
+    "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Multimission/GRACE-FO/ORBCNT",
+    "link_vires_gui": "",
+    "link_notebook": "",
+    "link_hapi": "",
+    "variables_table": "Variable,Units,Description,Dim,Type\nTimestamp,ms,,1,CDF_EPOCH\nLatitude,,,1,CDF_DOUBLE\nLongitude,,,1,CDF_DOUBLE\nRadius,,,1,CDF_DOUBLE\nOrbitNo,,,1,CDF_DOUBLE\nMLT,,,1,CDF_DOUBLE",
+    "related_resources": "",
+    "details": "<p>There is one file series per spacecraft: GF1_ORBCNT_* (GRACE-FO-1, folder Sat_1) and GF2_ORBCNT_* (GRACE-FO-2, folder Sat_2). Each file covers the period from 30 May 2018 up to the end time given in its file name, e.g. GF1_ORBCNT_20180530T003839_20260925T055841_0201.cdf.</p>",
+    "changelog": "",
+    "fast_processing": false
+}

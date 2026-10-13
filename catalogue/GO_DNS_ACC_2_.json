@@ -1,0 +1,44 @@
+{
+    "product_id": "GO_DNS_ACC_2_",
+    "definition": "Thermosphere mass density at the GOCE satellite location",
+    "applicable_missions": [
+        "GOCE"
+    ],
+    "applicable_spacecraft": [
+        "GOCE"
+    ],
+    "thematic_areas": [
+        "Thermosphere"
+    ],
+    "authors": [
+        {
+            "name": "European Space Agency",
+            "ror": "https://ror.org/03wd9za21"
+        },
+        {
+            "name": "Delft University of Technology",
+            "ror": "https://ror.org/02e2c7k09"
+        }
+    ],
+    "creation_year": 2022,
+    "product_types": [
+        "GO_OPER_DNS_ACC_2_"
+    ],
+    "identifiers": [
+        {
+            "identifier": "https://swarmhandbook.earth.esa.int/catalogue/GO_DNS_ACC_2_",
+            "identifierType": "URL"
+        }
+    ],
+    "description": "<p>The product contains thermosphere mass density at the GOCE satellite location.</p>\n<p>GOCE (March 2009 to its re-entry in November 2013) flew in a very low orbit, at about 255-270 km, and used drag-free control. Neutral mass density comes from the non-gravitational accelerations measured by the gradiometer accelerometers, combined with the ion thruster activation data and star camera attitude. The product belongs to the multi-mission thermosphere density series produced by Delft University of Technology, alongside CH_DNS_ACC_2_ (CHAMP), GR_DNSxACC_2_ (GRACE) and GF_DNSxACC_2_ (GRACE-FO).</p>",
+    "link_files_http": "https://swarm-diss.eo.esa.int/#swarm/Multimission/GOCE/DNS",
+    "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Multimission/GOCE/DNS",
+    "link_vires_gui": "",
+    "link_notebook": "",
+    "link_hapi": "",
+    "variables_table": "Variable,Units,Description,Dim,Type\ntime,UTC,Observation time,1,CDF_EPOCH\naltitude,m,Observation altitude (GRS80),1,CDF_REAL8\nlatitude,deg,Geodetic latitude of observation,1,CDF_REAL8\nlongitude,deg,Observation longitude,1,CDF_REAL8\nlocal_solar_time,h,Local solar time,1,CDF_REAL8\ndensity,kg/m3,Mass density,1,CDF_REAL8\ndensity_orbitmean,kg/m3,Moving-average orbit mean of mass density,1,CDF_REAL8\nvalidity_flag,-,\"Validity flag for density: 0 = nominal, 1 = anomalous\",1,CDF_INT1\nvalidity_flag_orbitmean,-,\"Validity flag for density_orbitmean: 0 = nominal, 1 = anomalous\",1,CDF_INT1",
+    "related_resources": "<p><strong>Related data and documentation:</strong></p>\n<ul>\n\t<li><a href=\"http://thermosphere.tudelft.nl/\">TU Delft thermosphere data</a></li>\n\t<li><a href=\"https://earth.esa.int/eogateway/activities/toleos\">TOLEOS project</a></li>\n\t<li><a href=\"https://earth.esa.int/eogateway/catalog/goce-thermosphere-data\">GOCE Thermosphere Data (GOCE+ Air Density and Wind Retrieval, ESA Earth Online)</a></li>\n</ul>",
+    "details": "",
+    "changelog": "",
+    "fast_processing": false
+}
