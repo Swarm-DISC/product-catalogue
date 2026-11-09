@@ -27,7 +27,12 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/GO_ORBCNT",
-            "identifierType": "URL"
+            "identifierType": "URL",
+            "primary": true,
+            "citation": {
+                "text": "European Space Agency, GFZ Helmholtz Centre for Geosciences, 2023, \"GO_ORBCNT\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/GO_ORBCNT",
+                "bibtex": "@misc{GO_ORBCNT,\n  author = {{European Space Agency} and {GFZ Helmholtz Centre for Geosciences}},\n  title = {GO_ORBCNT},\n  year = {2023},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/GO_ORBCNT},\n}"
+            }
         }
     ],
     "description": "<p>The GO_ORBCNT product is a preliminary orbit counter for the GOCE satellite, made from Two-Line Elements (TLEs). It covers the whole GOCE mission, from 2009-03-17 to 2013-11-09, in a single NASA CDF file. Following the Swarm orbit counter convention, an orbit starts at the ascending-node Equator crossing. The file gives a quick overview of altitude and magnetic local time and can be used for conjunction analysis with Swarm and other missions. It goes with the GOCE platform magnetometer data (GO_MAG_ACAL_CORR).</p>\n<p>File naming: GO_ORBCNT_&lt;start yyyymmddThhmmss&gt;_&lt;end yyyymmddThhmmss&gt;_&lt;version&gt;.cdf, e.g. GO_ORBCNT_20090317T231001_20131109T234516_0101.cdf.</p>",

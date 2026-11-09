@@ -49,7 +49,7 @@
     "description": "Final map of the lithospheric field from the Revised Spherical Cap Harmonic analysis (R-SCHA) Dedicated Lithospheric Inversion, expressed in terms of high degree Spherical Harmonics",
     "link_files_http": "https://swarm-diss.eo.esa.int/#swarm/Level2longterm/MLI",
     "link_files_ftp": "ftp://swarm-diss.eo.esa.int/Level2longterm/MLI",
-    "link_vires_gui": "",
+    "link_vires_gui": "https://vires.services/?ws=data%3Aapplication%2Fjson%2Bgzip%3Bbase64%2CH4sIAAAAAAAC%2F5VU207jMBD9F79uGvkS3%2FpWSrsgFRZRdoGiKgqNKV6lSZWkXRDKvzNuS0gQVbeSFdnjOedMxvZ5Q4XJ13Zm%2Fpi8sFmKuoj5hPgYeai0CzM2iZmVm40HRDERHUxg3GDc3QwfYzyB3MYWZV2uYfha6wmabnlOs0VkP0h4h9AOg0y6h4Te4NYWkKyt%2BdcoBs2T7NEAZpln8WpWFv0sfbLzVR5t99%2FQ%2BDb8dTW4Di96P3vh6DokJy66toV9TAzqPkVJYTyUrcrEpqb4DCyjmS1fUZcAd5RHC1NCZxz0JLwc9N0kj9I5MDwQDsV53H2hwFmWZHkxixw5%2BmtKVHloeES6Byfhfs%2FEqFvmKwPwjWKYm6LX0u0I4BF7RWtUeJHFJmkisSf597AKgHV63SRXR6Ml2JdfmzI8riFn7WoI%2Bc9O3LVksJOhbL%2FMfatd0qXLb7Jjuzb53KbzkDjUpIWiTuMg5ryFUdhThxCnRyOG1iTx7pY2uuAFeH8H7sLBbUuIe%2FyAzP3xkMmxkMptLpZZatIS%2FubhDVk4ZHQxOg%2FHZ72QDtzh27l74D%2FQl7tWVdMNHiJ5dJUV9uOlL%2Bs53ECOFSPal0pQwpjwOlQQLAWnPg84C6hWHgsIxVwEPpGKChoIKDm2ee1zHewzpgMqsMZcKYApD%2FtcYimFALoAvpR4kCYDiHChKAYxSAai1XLLgDXApQKzU5gprShQSKEFZ0QKqQPJJIeQYIQoJYmWUmupGTDkdv5cuufha8YlIZhxqrjWgkA%2BVa4qgGsG5FpJVwbFAiQ0jIBC1YpPoU8vvRdbNB1zBNZYruKNaSZZ%2BcUw4SheHcJZ9NAZ7mY1ih6dJaSrJIEI3SVMP%2Bat7c2p7zJcZNoIUYeqvKZGw6Gmbe7DRBApotIkiS23j6KXLJ%2Bj2sNP8mid1av%2Bc5Qn9tPyL8f9ev4bOhHFu2VVvQPlFE2zDgcAAA%3D%3D",
     "link_notebook": "",
     "link_hapi": "",
     "variables_table": "",

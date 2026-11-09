@@ -27,7 +27,12 @@
     "identifiers": [
         {
             "identifier": "https://swarmhandbook.earth.esa.int/catalogue/CS_AUX_ORBCNT",
-            "identifierType": "URL"
+            "identifierType": "URL",
+            "primary": true,
+            "citation": {
+                "text": "European Space Agency, Technical University of Denmark, 2024, \"CS_AUX_ORBCNT\", European Space Agency, https://swarmhandbook.earth.esa.int/catalogue/CS_AUX_ORBCNT",
+                "bibtex": "@misc{CS_AUX_ORBCNT,\n  author = {{European Space Agency} and {Technical University of Denmark}},\n  title = {CS_AUX_ORBCNT},\n  year = {2024},\n  publisher = {European Space Agency},\n  url = {https://swarmhandbook.earth.esa.int/catalogue/CS_AUX_ORBCNT},\n}"
+            }
         }
     ],
     "description": "<p>The CS_OPER_AUX_ORBCNT auxiliary file gives orbit number information for CryoSat-2. It is a plain-text table with one row per orbit. Each row holds the orbit number, the orbit start time (as MJD2000 and as a UTC date and time), the longitude phi_AN, and a Source flag.</p>\n<p>Each file on the Swarm dissemination server covers the mission from 2010-04-08 onwards. Orbit 1 starts on 2010-04-08 at 15:02:26.042 UTC. New files carry a month-end stop date, and the latest one listed runs to 2026-09-30.</p>",

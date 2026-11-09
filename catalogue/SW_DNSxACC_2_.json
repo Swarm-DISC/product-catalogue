@@ -6,6 +6,7 @@
     ],
     "applicable_spacecraft": [
         "Swarm-A",
+        "Swarm-B",
         "Swarm-C"
     ],
     "thematic_areas": [
